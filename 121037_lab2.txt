@@ -1,0 +1,3285 @@
+su
+pwd
+sbin
+cd
+mkdir
+cd
+cd
+sbin
+sbin
+mkdir
+resolv
+conf
+cp
+resolv
+conf
+mv
+rm
+cd
+chmod
+tmp
+cd
+tmp
+chmod
+su
+cd
+chmod
+uname
+su
+cd
+ld
+sidbi
+sidbi
+sidbi
+sidbi
+inode
+sidbi
+li
+li
+sidbi
+sidbi
+cp
+sidbi
+sidbi
+inode
+sidbi
+li
+li
+sidbi
+sidbi
+mv
+sidbi
+sidbi
+inode
+sidbi
+li
+li
+sidbi
+sidbi
+mv
+sidbi
+sidbi
+su
+Applications�
+Settings�
+Applications�
+Settings�
+sidbi
+li
+chmod
+20: 2 2 5
+1. Login as guest (password is guest123)
+	su student
+
+2. Find the present Directory
+	pwd
+
+3. Write the / directory structure
+	tree
+	 
+4. Write a few commands available in /bin and /sbin directory
+	cd /root/home/bin
+	/bin commands 
+		ls
+		mkdir new1
+		cd
+		date
+
+	cd /root/home/sbin
+	/sbin commands
+		clock
+
+5. Find the guest directory
+	locate student
+
+6. Write the permissions of guest directory
+	ls -l
+
+7. Create a new Directory test in guest directory
+	mkdir test
+
+8. Write the permissions of test directory
+	ls -l
+
+9. Copy the file /etc/resolv.conf in test directory
+	cp /etc/resolv.conf /test
+
+10. Rename the test directory to testing
+	mv /test /testing
+
+11. Delete the testing directory
+	 rm /testing
+
+12. Change the permissions of guest directory to 775
+	cd /student
+	chmod 775
+
+13. Change the permissions of /tmp directory to 700
+	cd /student/tmp
+	chmod 775
+
+14. Login as root user 
+	su 
+
+15. Change the permissions of guest directory to 700
+	cd /root/home/student
+	chmod 700
+
+16. The location of kernel files in Unix File System is /boot and by looking at the kernel file, write the kernel version you are using in your system.
+	uname -v
+
+17. Login as guest
+	su student
+
+18. Change directory to /
+	cd ..
+
+19. List the contents of /home directory
+	ls -ld
+
+20. Find the group to which guest belongs
+	id
+
+21. Create a file sidbi in the home area of guest (hint: use touch command)
+	touch sidbi
+
+22. Find the permissions of the file sidbi
+	ls -l /sidbi 
+
+23. Find the inode number of file sidbi (hint: ls –li)
+	ls -li
+
+24. Copy the file sidbi to sidbi1
+	cp /sidbi /sidbi1
+
+25. Find the inode number of file sidbi1 (hint: ls –li)
+	ls -li
+
+26. Move the file sidbi to sidbi2
+	mv  /sidbi /sidbi1
+
+27. Find the inode number of file sidbi2 (hint: ls –li)
+	ls -li
+
+28. Move sidbi2 to sidbi
+	mv /sidbi2 /sidbi
+
+29. Login as root
+	su
+
+30. Create a new user guest1 with same group as guest (hint: use GUI tool ApplicationsSystem Settings Users and Groups)[More on this later in the course]
+
+31. Create a new user guest2 with a different group than the group of guest (hint: use GUI tool ApplicationsSystem Settings Users and Groups)
+
+32. Find, what permissions should the file sidbi have, so that both guest1 and guest2 can write into this file.
+	ls -li
+	chmod 770
+
+
+50.0
+50.1
+50.2
+50.3
+50.4
+50.5
+50.6
+50.7
+50.8
+50.9
+51.0
+51.1
+51.2
+51.3
+51.4
+51.5
+51.6
+51.7
+51.8
+51.9
+52.0
+52.1
+52.2
+52.3
+52.4
+52.5
+52.6
+52.7
+52.8
+52.9
+53.0
+53.1
+53.2
+53.3
+53.4
+53.5
+53.6
+53.7
+53.8
+53.9
+54.0
+54.1
+54.2
+54.3
+54.4
+54.5
+54.6
+54.7
+54.8
+54.9
+55.0
+55.1
+55.2
+55.3
+55.4
+55.5
+55.6
+55.7
+55.8
+55.9
+56.0
+56.1
+56.2
+56.3
+56.4
+56.5
+56.6
+56.7
+56.8
+56.9
+57.0
+57.1
+57.2
+57.3
+57.4
+57.5
+57.6
+57.7
+57.8
+57.9
+58.0
+58.1
+58.2
+58.3
+58.4
+58.5
+58.6
+58.7
+58.8
+58.9
+59.0
+59.1
+59.2
+59.3
+59.4
+59.5
+59.6
+59.7
+59.8
+59.9
+60.0
+60.1
+60.2
+60.3
+60.4
+60.5
+60.6
+60.7
+60.8
+60.9
+61.0
+61.1
+61.2
+61.3
+61.4
+61.5
+61.6
+61.7
+61.8
+61.9
+62.0
+62.1
+62.2
+62.3
+62.4
+62.5
+62.6
+62.7
+62.8
+62.9
+63.0
+63.1
+63.2
+63.3
+63.4
+63.5
+63.6
+63.7
+63.8
+63.9
+64.0
+64.1
+64.2
+64.3
+64.4
+64.5
+64.6
+64.7
+64.8
+64.9
+65.0
+65.1
+65.2
+65.3
+65.4
+65.5
+65.6
+65.7
+65.8
+65.9
+66.0
+66.1
+66.2
+66.3
+66.4
+66.5
+66.6
+66.7
+66.8
+66.9
+67.0
+67.1
+67.2
+67.3
+67.4
+67.5
+67.6
+67.7
+67.8
+67.9
+68.0
+68.1
+68.2
+68.3
+68.4
+68.5
+68.6
+68.7
+68.8
+68.9
+69.0
+69.1
+69.2
+69.3
+69.4
+69.5
+69.6
+69.7
+69.8
+69.9
+70.0
+70.1
+70.2
+70.3
+70.4
+70.5
+70.6
+70.7
+70.8
+70.9
+71.0
+71.1
+71.2
+71.3
+71.4
+71.5
+71.6
+71.7
+71.8
+71.9
+72.0
+72.1
+72.2
+72.3
+72.4
+72.5
+72.6
+72.7
+72.8
+72.9
+73.0
+73.1
+73.2
+73.3
+73.4
+73.5
+73.6
+73.7
+73.8
+73.9
+74.0
+74.1
+74.2
+74.3
+74.4
+74.5
+74.6
+74.7
+74.8
+74.9
+75.0
+75.1
+75.2
+75.3
+75.4
+75.5
+75.6
+75.7
+75.8
+75.9
+76.0
+76.1
+76.2
+76.3
+76.4
+76.5
+76.6
+76.7
+76.8
+76.9
+77.0
+77.1
+77.2
+77.3
+77.4
+77.5
+77.6
+77.7
+77.8
+77.9
+78.0
+78.1
+78.2
+78.3
+78.4
+78.5
+78.6
+78.7
+78.8
+78.9
+79.0
+79.1
+79.2
+79.3
+79.4
+79.5
+79.6
+79.7
+79.8
+79.9
+80.0
+80.1
+80.2
+80.3
+80.4
+80.5
+80.6
+80.7
+80.8
+80.9
+81.0
+81.1
+81.2
+81.3
+81.4
+81.5
+81.6
+81.7
+81.8
+81.9
+82.0
+82.1
+82.2
+82.3
+82.4
+82.5
+82.6
+82.7
+82.8
+82.9
+83.0
+83.1
+83.2
+83.3
+83.4
+83.5
+83.6
+83.7
+83.8
+83.9
+84.0
+84.1
+84.2
+84.3
+84.4
+84.5
+84.6
+84.7
+84.8
+84.9
+85.0
+85.1
+85.2
+85.3
+85.4
+85.5
+85.6
+85.7
+85.8
+85.9
+86.0
+86.1
+86.2
+86.3
+86.4
+86.5
+86.6
+86.7
+86.8
+86.9
+87.0
+87.1
+87.2
+87.3
+87.4
+87.5
+87.6
+87.7
+87.8
+87.9
+88.0
+88.1
+88.2
+88.3
+88.4
+88.5
+88.6
+88.7
+88.8
+88.9
+89.0
+89.1
+89.2
+89.3
+89.4
+89.5
+89.6
+89.7
+89.8
+89.9
+90.0
+90.1
+90.2
+90.3
+90.4
+90.5
+90.6
+90.7
+90.8
+90.9
+91.0
+91.1
+91.2
+91.3
+91.4
+91.5
+91.6
+91.7
+91.8
+91.9
+92.0
+92.1
+92.2
+92.3
+92.4
+92.5
+92.6
+92.7
+92.8
+92.9
+93.0
+93.1
+93.2
+93.3
+93.4
+93.5
+93.6
+93.7
+93.8
+93.9
+94.0
+94.1
+94.2
+94.3
+94.4
+94.5
+94.6
+94.7
+94.8
+94.9
+95.0
+95.1
+95.2
+95.3
+95.4
+95.5
+95.6
+95.7
+95.8
+95.9
+96.0
+96.1
+96.2
+96.3
+96.4
+96.5
+96.6
+96.7
+96.8
+96.9
+97.0
+97.1
+97.2
+97.3
+97.4
+97.5
+97.6
+97.7
+97.8
+97.9
+98.0
+98.1
+98.2
+98.3
+98.4
+98.5
+98.6
+98.7
+98.8
+98.9
+99.0
+99.1
+99.2
+99.3
+99.4
+99.5
+99.6
+99.7
+99.8
+99.9
+100.0
+U-Linux
+'g' (0147) unimplemented
+'g' (0147) unimplemented
+'u' (0165) unimplemented
+'e' (0145) unimplemented
+'(' (050) unimplemented
+'w' (0167) unimplemented
+'g' (0147) unimplemented
+'u' (0165) unimplemented
+'e' (0145) unimplemented
+')' (051) unimplemented
+'u' (0165) unimplemented
+'e' (0145) unimplemented
+'t' (0164) unimplemented
+2't' (0164) unimplemented
+'h' (0150) unimplemented
+'e' (0145) unimplemented
+'e' (0145) unimplemented
+'t' (0164) unimplemented
+'e' (0145) unimplemented
+'t' (0164) unimplemented
+'y' (0171) unimplemented
+'w' (0167) unimplemented
+'W' (0127) unimplemented
+'t' (0164) unimplemented
+'e' (0145) unimplemented
+'t' (0164) unimplemented
+'h' (0150) unimplemented
+'e' (0145) unimplemented
+'e' (0145) unimplemented
+'t' (0164) unimplemented
+'y' (0171) unimplemented
+'u' (0165) unimplemented
+'t' (0164) unimplemented
+'u' (0165) unimplemented
+'e' (0145) unimplemented
+'t' (0164) unimplemented
+'e' (0145) unimplemented
+'e' (0145) unimplemented
+'W' (0127) unimplemented
+'t' (0164) unimplemented
+'e' (0145) unimplemented
+'e' (0145) unimplemented
+'w' (0167) unimplemented
+'m' (0155) unimplemented
+'m' (0155) unimplemented
+'b' (0142) unimplemented
+'b' (0142) unimplemented
+'e' (0145) unimplemented
+'t' (0164) unimplemented
+'y' (0171) unimplemented
+'t' (0164) unimplemented
+'h' (0150) unimplemented
+'m' (0155) unimplemented
+'e' (0145) unimplemented
+'b' (0142) unimplemented
+'b' (0142) unimplemented
+'m' (0155) unimplemented
+'m' (0155) unimplemented
+'m' (0155) unimplemented
+'e' (0145) unimplemented
+'w' (0167) unimplemented
+'t' (0164) unimplemented
+'e' (0145) unimplemented
+'t' (0164) unimplemented
+'h' (0150) unimplemented
+'m' (0155) unimplemented
+'e' (0145) unimplemented
+'m' (0155) unimplemented
+'m' (0155) unimplemented
+5't' (0164) unimplemented
+'h' (0150) unimplemented
+'e' (0145) unimplemented
+'g' (0147) unimplemented
+'u' (0165) unimplemented
+'e' (0145) unimplemented
+'e' (0145) unimplemented
+'t' (0164) unimplemented
+'y' (0171) unimplemented
+'t' (0164) unimplemented
+'e' (0145) unimplemented
+'u' (0165) unimplemented
+'e' (0145) unimplemented
+'t' (0164) unimplemented
+'W' (0127) unimplemented
+'t' (0164) unimplemented
+'e' (0145) unimplemented
+'t' (0164) unimplemented
+'h' (0150) unimplemented
+'e' (0145) unimplemented
+'e' (0145) unimplemented
+'m' (0155) unimplemented
+'g' (0147) unimplemented
+'u' (0165) unimplemented
+'e' (0145) unimplemented
+'e' (0145) unimplemented
+'t' (0164) unimplemented
+'y' (0171) unimplemented
+'e' (0145) unimplemented
+'t' (0164) unimplemented
+'e' (0145) unimplemented
+'e' (0145) unimplemented
+'w' (0167) unimplemented
+'e' (0145) unimplemented
+'t' (0164) unimplemented
+'y' (0171) unimplemented
+'t' (0164) unimplemented
+'e' (0145) unimplemented
+'g' (0147) unimplemented
+'u' (0165) unimplemented
+'e' (0145) unimplemented
+'e' (0145) unimplemented
+'t' (0164) unimplemented
+'y' (0171) unimplemented
+'m' (0155) unimplemented
+'t' (0164) unimplemented
+'e' (0145) unimplemented
+'W' (0127) unimplemented
+'t' (0164) unimplemented
+'e' (0145) unimplemented
+'t' (0164) unimplemented
+'h' (0150) unimplemented
+'e' (0145) unimplemented
+'e' (0145) unimplemented
+'m' (0155) unimplemented
+'t' (0164) unimplemented
+'e' (0145) unimplemented
+'e' (0145) unimplemented
+'t' (0164) unimplemented
+'y' (0171) unimplemented
+9
+'y' (0171) unimplemented
+'t' (0164) unimplemented
+'h' (0150) unimplemented
+'e' (0145) unimplemented
+9
+'e' (0145) unimplemented
+'t' (0164) unimplemented
+'e' (0145) unimplemented
+'t' (0164) unimplemented
+'e' (0145) unimplemented
+'e' (0145) unimplemented
+'t' (0164) unimplemented
+'y' (0171) unimplemented
+'e' (0145) unimplemented
+'t' (0164) unimplemented
+'e' (0145) unimplemented
+'t' (0164) unimplemented
+'e' (0145) unimplemented
+'R' (0122) unimplemented
+'e' (0145) unimplemented
+9'm' (0155) unimplemented
+'e' (0145) unimplemented
+'t' (0164) unimplemented
+'h' (0150) unimplemented
+'e' (0145) unimplemented
+'t' (0164) unimplemented
+'e' (0145) unimplemented
+'e' (0145) unimplemented
+'t' (0164) unimplemented
+'y' (0171) unimplemented
+'t' (0164) unimplemented
+'t' (0164) unimplemented
+'e' (0145) unimplemented
+'g' (0147) unimplemented
+'m' (0155) unimplemented
+'t' (0164) unimplemented
+'e' (0145) unimplemented
+'t' (0164) unimplemented
+'e' (0145) unimplemented
+'g' (0147) unimplemented
+'e' (0145) unimplemented
+'t' (0164) unimplemented
+'e' (0145) unimplemented
+'t' (0164) unimplemented
+'h' (0150) unimplemented
+'e' (0145) unimplemented
+'t' (0164) unimplemented
+'e' (0145) unimplemented
+'g' (0147) unimplemented
+'e' (0145) unimplemented
+'t' (0164) unimplemented
+'y' (0171) unimplemented
+'m' (0155) unimplemented
+'t' (0164) unimplemented
+'e' (0145) unimplemented
+'g' (0147) unimplemented
+'h' (0150) unimplemented
+'g' (0147) unimplemented
+'e' (0145) unimplemented
+'t' (0164) unimplemented
+'h' (0150) unimplemented
+'e' (0145) unimplemented
+10
+'e' (0145) unimplemented
+'m' (0155) unimplemented
+'g' (0147) unimplemented
+'u' (0165) unimplemented
+'e' (0145) unimplemented
+'e' (0145) unimplemented
+'t' (0164) unimplemented
+'y' (0171) unimplemented
+'t' (0164) unimplemented
+'u' (0165) unimplemented
+'e' (0145) unimplemented
+'t' (0164) unimplemented
+'h' (0150) unimplemented
+'m' (0155) unimplemented
+'h' (0150) unimplemented
+'g' (0147) unimplemented
+'e' (0145) unimplemented
+'t' (0164) unimplemented
+'h' (0150) unimplemented
+'e' (0145) unimplemented
+13
+'e' (0145) unimplemented
+'m' (0155) unimplemented
+'t' (0164) unimplemented
+'m' (0155) unimplemented
+'e' (0145) unimplemented
+'t' (0164) unimplemented
+'y' (0171) unimplemented
+'t' (0164) unimplemented
+'u' (0165) unimplemented
+'e' (0145) unimplemented
+'t' (0164) unimplemented
+'t' (0164) unimplemented
+'m' (0155) unimplemented
+'h' (0150) unimplemented
+'m' (0155) unimplemented
+'g' (0147) unimplemented
+775't' (0164) unimplemented
+'u' (0165) unimplemented
+'h' (0150) unimplemented
+'g' (0147) unimplemented
+'e' (0145) unimplemented
+'t' (0164) unimplemented
+'h' (0150) unimplemented
+'e' (0145) unimplemented
+19
+'e' (0145) unimplemented
+'m' (0155) unimplemented
+'g' (0147) unimplemented
+'u' (0165) unimplemented
+'e' (0145) unimplemented
+'e' (0145) unimplemented
+'t' (0164) unimplemented
+'y' (0171) unimplemented
+'t' (0164) unimplemented
+'t' (0164) unimplemented
+'h' (0150) unimplemented
+'m' (0155) unimplemented
+'e' (0145) unimplemented
+'u' (0165) unimplemented
+'e' (0145) unimplemented
+'t' (0164) unimplemented
+'h' (0150) unimplemented
+'m' (0155) unimplemented
+'T' (0124) unimplemented
+'h' (0150) unimplemented
+'e' (0145) unimplemented
+'t' (0164) unimplemented
+'e' (0145) unimplemented
+'e' (0145) unimplemented
+'U' (0125) unimplemented
+'e' (0145) unimplemented
+'m' (0155) unimplemented
+'b' (0142) unimplemented
+'t' (0164) unimplemented
+'b' (0142) unimplemented
+'y' (0171) unimplemented
+'g' (0147) unimplemented
+'t' (0164) unimplemented
+'t' (0164) unimplemented
+'h' (0150) unimplemented
+'e' (0145) unimplemented
+'e' (0145) unimplemented
+'e' (0145) unimplemented
+',' (054) unimplemented
+'w' (0167) unimplemented
+'t' (0164) unimplemented
+'e' (0145) unimplemented
+'t' (0164) unimplemented
+'h' (0150) unimplemented
+'e' (0145) unimplemented
+'e' (0145) unimplemented
+'e' (0145) unimplemented
+'e' (0145) unimplemented
+'y' (0171) unimplemented
+'u' (0165) unimplemented
+'e' (0145) unimplemented
+'u' (0165) unimplemented
+'g' (0147) unimplemented
+'y' (0171) unimplemented
+'u' (0165) unimplemented
+'e' (0145) unimplemented
+'m' (0155) unimplemented
+'u' (0165) unimplemented
+0'm' (0155) unimplemented
+'e' (0145) unimplemented
+'g' (0147) unimplemented
+'g' (0147) unimplemented
+'u' (0165) unimplemented
+'e' (0145) unimplemented
+'u' (0165) unimplemented
+'e' (0145) unimplemented
+'t' (0164) unimplemented
+'h' (0150) unimplemented
+'g' (0147) unimplemented
+'e' (0145) unimplemented
+'e' (0145) unimplemented
+'t' (0164) unimplemented
+'y' (0171) unimplemented
+'t' (0164) unimplemented
+'t' (0164) unimplemented
+'h' (0150) unimplemented
+'e' (0145) unimplemented
+'t' (0164) unimplemented
+'e' (0145) unimplemented
+'t' (0164) unimplemented
+'h' (0150) unimplemented
+'m' (0155) unimplemented
+'e' (0145) unimplemented
+'e' (0145) unimplemented
+'t' (0164) unimplemented
+'y' (0171) unimplemented
+26't' (0164) unimplemented
+'h' (0150) unimplemented
+'e' (0145) unimplemented
+'g' (0147) unimplemented
+'u' (0165) unimplemented
+10
+'t' (0164) unimplemented
+'w' (0167) unimplemented
+'h' (0150) unimplemented
+'h' (0150) unimplemented
+'g' (0147) unimplemented
+'u' (0165) unimplemented
+'e' (0145) unimplemented
+'b' (0142) unimplemented
+'e' (0145) unimplemented
+'g' (0147) unimplemented
+'e' (0145) unimplemented
+'t' (0164) unimplemented
+'e' (0145) unimplemented
+
+C
+'b' (0142) unimplemented
+'t' (0164) unimplemented
+'h' (0150) unimplemented
+'e' (0145) unimplemented
+'h' (0150) unimplemented
+'m' (0155) unimplemented
+'e' (0145) unimplemented
+'e' (0145) unimplemented
+'g' (0147) unimplemented
+'u' (0165) unimplemented
+'e' (0145) unimplemented
+'(' (050) unimplemented
+'h' (0150) unimplemented
+'t' (0164) unimplemented
+'u' (0165) unimplemented
+'t' (0164) unimplemented
+'u' (0165) unimplemented
+'h' (0150) unimplemented
+'m' (0155) unimplemented
+'m' (0155) unimplemented
+')' (051) unimplemented
+'t' (0164) unimplemented
+'u' (0165) unimplemented
+'h' (0150) unimplemented
+'b' (0142) unimplemented
+22't' (0164) unimplemented
+'h' (0150) unimplemented
+'e' (0145) unimplemented
+'e' (0145) unimplemented
+'m' (0155) unimplemented
+'t' (0164) unimplemented
+'h' (0150) unimplemented
+'e' (0145) unimplemented
+'b' (0142) unimplemented
+'b' (0142) unimplemented
+23't' (0164) unimplemented
+'h' (0150) unimplemented
+'e' (0145) unimplemented
+'e' (0145) unimplemented
+'u' (0165) unimplemented
+'m' (0155) unimplemented
+'b' (0142) unimplemented
+'e' (0145) unimplemented
+'b' (0142) unimplemented
+'(' (050) unimplemented
+'h' (0150) unimplemented
+'t' (0164) unimplemented
+0342 unimplemented
+0200 unimplemented
+0223 unimplemented
+')' (051) unimplemented
+2A
+'y' (0171) unimplemented
+'t' (0164) unimplemented
+'h' (0150) unimplemented
+'e' (0145) unimplemented
+2A
+13
+0
+13
+'b' (0142) unimplemented
+'t' (0164) unimplemented
+'b' (0142) unimplemented
+'b' (0142) unimplemented
+'b' (0142) unimplemented
+2B't' (0164) unimplemented
+'h' (0150) unimplemented
+'e' (0145) unimplemented
+1'e' (0145) unimplemented
+'u' (0165) unimplemented
+'m' (0155) unimplemented
+'b' (0142) unimplemented
+'e' (0145) unimplemented
+'b' (0142) unimplemented
+'(' (050) unimplemented
+'h' (0150) unimplemented
+'t' (0164) unimplemented
+0342 unimplemented
+0200 unimplemented
+0223 unimplemented
+')' (051) unimplemented
+'M' (0115) unimplemented
+'e' (0145) unimplemented
+'t' (0164) unimplemented
+'h' (0150) unimplemented
+'e' (0145) unimplemented
+ 03
+0
+ 15
+'b' (0142) unimplemented
+'t' (0164) unimplemented
+'b' (0142) unimplemented
+'m' (0155) unimplemented
+'b' (0142) unimplemented
+'b' (0142) unimplemented
+27't' (0164) unimplemented
+'h' (0150) unimplemented
+'e' (0145) unimplemented
+1'e' (0145) unimplemented
+'u' (0165) unimplemented
+'m' (0155) unimplemented
+'b' (0142) unimplemented
+'e' (0145) unimplemented
+'b' (0142) unimplemented
+'(' (050) unimplemented
+'h' (0150) unimplemented
+'t' (0164) unimplemented
+0342 unimplemented
+0200 unimplemented
+0223 unimplemented
+')' (051) unimplemented
+'M' (0115) unimplemented
+'e' (0145) unimplemented
+'b' (0142) unimplemented
+'t' (0164) unimplemented
+'b' (0142) unimplemented
+'m' (0155) unimplemented
+'b' (0142) unimplemented
+'b' (0142) unimplemented
+'g' (0147) unimplemented
+'t' (0164) unimplemented
+'e' (0145) unimplemented
+'t' (0164) unimplemented
+'e' (0145) unimplemented
+-'e' (0145) unimplemented
+'w' (0167) unimplemented
+'u' (0165) unimplemented
+'g' (0147) unimplemented
+'u' (0165) unimplemented
+'e' (0145) unimplemented
+'w' (0167) unimplemented
+'t' (0164) unimplemented
+'h' (0150) unimplemented
+'m' (0155) unimplemented
+'e' (0145) unimplemented
+'g' (0147) unimplemented
+'u' (0165) unimplemented
+'g' (0147) unimplemented
+'u' (0165) unimplemented
+'e' (0145) unimplemented
+'(' (050) unimplemented
+'h' (0150) unimplemented
+'t' (0164) unimplemented
+'u' (0165) unimplemented
+'G' (0107) unimplemented
+'U' (0125) unimplemented
+'t' (0164) unimplemented
+A
+A
+'t' (0164) unimplemented
+0203 unimplemented
+0240 unimplemented
+'e' (0145) unimplemented
+'m' (0155) unimplemented
+'t' (0164) unimplemented
+'t' (0164) unimplemented
+'g' (0147) unimplemented
+0203 unimplemented
+0240 unimplemented
+'U' (0125) unimplemented
+'G' (0107) unimplemented
+'u' (0165) unimplemented
+'e' (0145) unimplemented
+'t' (0164) unimplemented
+'e' (0145) unimplemented
+.'e' (0145) unimplemented
+'w' (0167) unimplemented
+'u' (0165) unimplemented
+'g' (0147) unimplemented
+'u' (0165) unimplemented
+'e' (0145) unimplemented
+'w' (0167) unimplemented
+'t' (0164) unimplemented
+'h' (0150) unimplemented
+'e' (0145) unimplemented
+'e' (0145) unimplemented
+'t' (0164) unimplemented
+'g' (0147) unimplemented
+'u' (0165) unimplemented
+'t' (0164) unimplemented
+'h' (0150) unimplemented
+'t' (0164) unimplemented
+'h' (0150) unimplemented
+'e' (0145) unimplemented
+'g' (0147) unimplemented
+'u' (0165) unimplemented
+'g' (0147) unimplemented
+'u' (0165) unimplemented
+'e' (0145) unimplemented
+'(' (050) unimplemented
+'h' (0150) unimplemented
+'t' (0164) unimplemented
+'u' (0165) unimplemented
+'G' (0107) unimplemented
+'U' (0125) unimplemented
+'t' (0164) unimplemented
+1010
+1010
+'t' (0164) unimplemented
+0203 unimplemented
+0240 unimplemented
+'e' (0145) unimplemented
+'m' (0155) unimplemented
+'t' (0164) unimplemented
+'t' (0164) unimplemented
+'g' (0147) unimplemented
+0203 unimplemented
+0240 unimplemented
+'U' (0125) unimplemented
+'G' (0107) unimplemented
+'u' (0165) unimplemented
+1000',' (054) unimplemented
+'w' (0167) unimplemented
+'h' (0150) unimplemented
+'t' (0164) unimplemented
+'e' (0145) unimplemented
+'m' (0155) unimplemented
+'u' (0165) unimplemented
+'t' (0164) unimplemented
+'h' (0150) unimplemented
+'e' (0145) unimplemented
+'b' (0142) unimplemented
+'h' (0150) unimplemented
+'e' (0145) unimplemented
+',' (054) unimplemented
+'t' (0164) unimplemented
+'h' (0150) unimplemented
+'t' (0164) unimplemented
+'b' (0142) unimplemented
+'t' (0164) unimplemented
+'h' (0150) unimplemented
+'g' (0147) unimplemented
+'u' (0165) unimplemented
+'e' (0145) unimplemented
+'g' (0147) unimplemented
+'u' (0165) unimplemented
+'e' (0145) unimplemented
+'w' (0167) unimplemented
+'t' (0164) unimplemented
+'e' (0145) unimplemented
+'t' (0164) unimplemented
+'t' (0164) unimplemented
+'h' (0150) unimplemented
+'h' (0150) unimplemented
+'m' (0155) unimplemented
+1016	./.config/libreoffice/4/user/database/biblio
+1028	./.config/libreoffice/4/user/database
+4	./.config/libreoffice/4/user/uno_packages/cache/uno_packages
+4	./.config/libreoffice/4/user/uno_packages/cache/registry/com.sun.star.comp.deployment.script.PackageRegistryBackend
+4	./.config/libreoffice/4/user/uno_packages/cache/registry/com.sun.star.comp.deployment.component.PackageRegistryBackend
+4	./.config/libreoffice/4/user/uno_packages/cache/registry/com.sun.star.comp.deployment.sfwk.PackageRegistryBackend
+4	./.config/libreoffice/4/user/uno_packages/cache/registry/com.sun.star.comp.deployment.bundle.PackageRegistryBackend
+8	./.config/libreoffice/4/user/uno_packages/cache/registry/com.sun.star.comp.deployment.help.PackageRegistryBackend
+8	./.config/libreoffice/4/user/uno_packages/cache/registry/com.sun.star.comp.deployment.configuration.PackageRegistryBackend
+4	./.config/libreoffice/4/user/uno_packages/cache/registry/com.sun.star.comp.deployment.executable.PackageRegistryBackend
+40	./.config/libreoffice/4/user/uno_packages/cache/registry
+52	./.config/libreoffice/4/user/uno_packages/cache
+56	./.config/libreoffice/4/user/uno_packages
+4	./.config/libreoffice/4/user/extensions/tmp/extensions
+4	./.config/libreoffice/4/user/extensions/tmp/registry/com.sun.star.comp.deployment.script.PackageRegistryBackend
+4	./.config/libreoffice/4/user/extensions/tmp/registry/com.sun.star.comp.deployment.component.PackageRegistryBackend
+4	./.config/libreoffice/4/user/extensions/tmp/registry/com.sun.star.comp.deployment.sfwk.PackageRegistryBackend
+4	./.config/libreoffice/4/user/extensions/tmp/registry/com.sun.star.comp.deployment.bundle.PackageRegistryBackend
+8	./.config/libreoffice/4/user/extensions/tmp/registry/com.sun.star.comp.deployment.help.PackageRegistryBackend
+8	./.config/libreoffice/4/user/extensions/tmp/registry/com.sun.star.comp.deployment.configuration.PackageRegistryBackend
+4	./.config/libreoffice/4/user/extensions/tmp/registry/com.sun.star.comp.deployment.executable.PackageRegistryBackend
+40	./.config/libreoffice/4/user/extensions/tmp/registry
+48	./.config/libreoffice/4/user/extensions/tmp
+4	./.config/libreoffice/4/user/extensions/shared/registry/com.sun.star.comp.deployment.script.PackageRegistryBackend
+4	./.config/libreoffice/4/user/extensions/shared/registry/com.sun.star.comp.deployment.component.PackageRegistryBackend
+4	./.config/libreoffice/4/user/extensions/shared/registry/com.sun.star.comp.deployment.sfwk.PackageRegistryBackend
+4	./.config/libreoffice/4/user/extensions/shared/registry/com.sun.star.comp.deployment.bundle.PackageRegistryBackend
+8	./.config/libreoffice/4/user/extensions/shared/registry/com.sun.star.comp.deployment.help.PackageRegistryBackend
+8	./.config/libreoffice/4/user/extensions/shared/registry/com.sun.star.comp.deployment.configuration.PackageRegistryBackend
+4	./.config/libreoffice/4/user/extensions/shared/registry/com.sun.star.comp.deployment.executable.PackageRegistryBackend
+40	./.config/libreoffice/4/user/extensions/shared/registry
+48	./.config/libreoffice/4/user/extensions/shared
+4	./.config/libreoffice/4/user/extensions/bundled/registry/com.sun.star.comp.deployment.script.PackageRegistryBackend
+4	./.config/libreoffice/4/user/extensions/bundled/registry/com.sun.star.comp.deployment.component.PackageRegistryBackend
+4	./.config/libreoffice/4/user/extensions/bundled/registry/com.sun.star.comp.deployment.sfwk.PackageRegistryBackend
+4	./.config/libreoffice/4/user/extensions/bundled/registry/com.sun.star.comp.deployment.bundle.PackageRegistryBackend
+8	./.config/libreoffice/4/user/extensions/bundled/registry/com.sun.star.comp.deployment.help.PackageRegistryBackend
+8	./.config/libreoffice/4/user/extensions/bundled/registry/com.sun.star.comp.deployment.configuration.PackageRegistryBackend
+4	./.config/libreoffice/4/user/extensions/bundled/registry/com.sun.star.comp.deployment.executable.PackageRegistryBackend
+40	./.config/libreoffice/4/user/extensions/bundled/registry
+48	./.config/libreoffice/4/user/extensions/bundled
+152	./.config/libreoffice/4/user/extensions
+8	./.config/libreoffice/4/user/autotext
+4	./.config/libreoffice/4/user/autocorr
+12	./.config/libreoffice/4/user/gallery
+16	./.config/libreoffice/4/user/basic/Standard
+28	./.config/libreoffice/4/user/basic
+4	./.config/libreoffice/4/user/config/soffice.cfg/modules/swriter/toolbar
+4	./.config/libreoffice/4/user/config/soffice.cfg/modules/swriter/images/Bitmaps
+8	./.config/libreoffice/4/user/config/soffice.cfg/modules/swriter/images
+4	./.config/libreoffice/4/user/config/soffice.cfg/modules/swriter/statusbar
+4	./.config/libreoffice/4/user/config/soffice.cfg/modules/swriter/menubar
+24	./.config/libreoffice/4/user/config/soffice.cfg/modules/swriter
+28	./.config/libreoffice/4/user/config/soffice.cfg/modules
+32	./.config/libreoffice/4/user/config/soffice.cfg
+440	./.config/libreoffice/4/user/config
+40	./.config/libreoffice/4/user/psprint
+1848	./.config/libreoffice/4/user
+1852	./.config/libreoffice/4
+1856	./.config/libreoffice
+4	./.config/unity
+8	./.config/compiz-1/compizconfig
+12	./.config/compiz-1
+4	./.config/gnome-session/saved-session
+8	./.config/gnome-session
+4	./.config/enchant
+8	./.config/gtk-3.0
+16	./.config/dconf
+4	./.config/upstart
+16	./.config/libaccounts-glib
+12	./.config/ibus/bus
+16	./.config/ibus
+72	./.config/pulse
+20	./.config/nautilus
+8	./.config/gnome-control-center/backgrounds
+12	./.config/gnome-control-center
+8	./.config/update-notifier
+8	./.config/evolution/sources
+12	./.config/evolution
+12	./.config/gedit
+2092	./.config
+8	./Documents
+4	./Templates
+4	./.gvfs
+4	./Music
+8	./.macromedia/Flash_Player/#SharedObjects/XY59JV3U/pagead2.googlesyndication.com/pagead/imgad
+12	./.macromedia/Flash_Player/#SharedObjects/XY59JV3U/pagead2.googlesyndication.com/pagead
+16	./.macromedia/Flash_Player/#SharedObjects/XY59JV3U/pagead2.googlesyndication.com
+8	./.macromedia/Flash_Player/#SharedObjects/XY59JV3U/tpc.googlesyndication.com/pagead/imgad
+12	./.macromedia/Flash_Player/#SharedObjects/XY59JV3U/tpc.googlesyndication.com/pagead
+16	./.macromedia/Flash_Player/#SharedObjects/XY59JV3U/tpc.googlesyndication.com
+4	./.macromedia/Flash_Player/#SharedObjects/XY59JV3U/s.ytimg.com
+40	./.macromedia/Flash_Player/#SharedObjects/XY59JV3U
+44	./.macromedia/Flash_Player/#SharedObjects
+8	./.macromedia/Flash_Player/macromedia.com/support/flashplayer/sys/#pagead2.googlesyndication.com
+8	./.macromedia/Flash_Player/macromedia.com/support/flashplayer/sys/#tpc.googlesyndication.com
+8	./.macromedia/Flash_Player/macromedia.com/support/flashplayer/sys/#s.ytimg.com
+32	./.macromedia/Flash_Player/macromedia.com/support/flashplayer/sys
+36	./.macromedia/Flash_Player/macromedia.com/support/flashplayer
+40	./.macromedia/Flash_Player/macromedia.com/support
+44	./.macromedia/Flash_Player/macromedia.com
+92	./.macromedia/Flash_Player
+96	./.macromedia
+4	./Desktop
+104	./.local/share/zeitgeist/fts.index
+268	./.local/share/zeitgeist
+4	./.local/share/sounds
+148	./.local/share/gvfs-metadata
+12	./.local/share/keyrings
+8	./.local/share/icc
+68	./.local/share/shotwell/data
+72	./.local/share/shotwell
+20	./.local/share/unity-webapps
+4	./.local/share/unity-settings-daemon
+8	./.local/share/telepathy/mission-control
+12	./.local/share/telepathy
+4	./.local/share/nautilus/scripts
+8	./.local/share/nautilus
+4	./.local/share/applications
+4	./.local/share/evolution/addressbook/trash
+8	./.local/share/evolution/addressbook
+8	./.local/share/evolution/tasks/system
+4	./.local/share/evolution/tasks/trash
+16	./.local/share/evolution/tasks
+8	./.local/share/evolution/calendar/system
+4	./.local/share/evolution/calendar/trash
+16	./.local/share/evolution/calendar
+4	./.local/share/evolution/memos/trash
+8	./.local/share/evolution/memos
+4	./.local/share/evolution/mail/trash
+8	./.local/share/evolution/mail
+60	./.local/share/evolution
+640	./.local/share
+644	./.local
+4	./Public
+15476	./Downloads
+4	./Pictures
+988	./.cache/mozilla/firefox/qiwdaair.default/thumbnails
+4080	./.cache/mozilla/firefox/qiwdaair.default/safebrowsing
+116	./.cache/mozilla/firefox/qiwdaair.default/startupCache
+105028	./.cache/mozilla/firefox/qiwdaair.default/cache2/entries
+4	./.cache/mozilla/firefox/qiwdaair.default/cache2/doomed
+105200	./.cache/mozilla/firefox/qiwdaair.default/cache2
+110392	./.cache/mozilla/firefox/qiwdaair.default
+110396	./.cache/mozilla/firefox
+110400	./.cache/mozilla
+1636	./.cache/thumbnails/large
+776	./.cache/thumbnails/normal
+8	./.cache/thumbnails/fail/gnome-thumbnail-factory
+12	./.cache/thumbnails/fail
+2428	./.cache/thumbnails
+696	./.cache/wallpaper
+16	./.cache/sso
+740	./.cache/gstreamer-1.0
+4	./.cache/shotwell/thumbs/thumbs128
+4	./.cache/shotwell/thumbs/thumbs360
+12	./.cache/shotwell/thumbs
+20	./.cache/shotwell
+4	./.cache/gvfs-burn
+4	./.cache/dconf
+516	./.cache/upstart
+20	./.cache/ibus/bus
+24	./.cache/ibus
+264	./.cache/fontconfig
+8	./.cache/logrotate
+116	./.cache/compizconfig-1
+16	./.cache/update-manager-core
+72	./.cache/oneconf/813e56ef1c4f171bda95b46b5448007c
+76	./.cache/oneconf
+4	./.cache/evolution/addressbook/trash
+8	./.cache/evolution/addressbook
+4	./.cache/evolution/tasks/trash
+8	./.cache/evolution/tasks
+4	./.cache/evolution/calendar/trash
+8	./.cache/evolution/calendar
+4	./.cache/evolution/memos/trash
+8	./.cache/evolution/memos
+4	./.cache/evolution/sources/trash
+8	./.cache/evolution/sources
+4	./.cache/evolution/mail/trash
+8	./.cache/evolution/mail
+52	./.cache/evolution
+115392	./.cache
+4	./.adobe/Flash_Player/AssetCache/DMUQF6R3
+8	./.adobe/Flash_Player/AssetCache
+12	./.adobe/Flash_Player
+16	./.adobe
+4	./.mozilla/extensions
+4	./.mozilla/firefox/Crash Reports/events
+12	./.mozilla/firefox/Crash Reports
+4	./.mozilla/firefox/qiwdaair.default/crashes/events
+12	./.mozilla/firefox/qiwdaair.default/crashes
+1068	./.mozilla/firefox/qiwdaair.default/sessionstore-backups
+4	./.mozilla/firefox/qiwdaair.default/minidumps
+4	./.mozilla/firefox/qiwdaair.default/extensions
+8	./.mozilla/firefox/qiwdaair.default/healthreport
+1016	./.mozilla/firefox/qiwdaair.default/gmp-gmpopenh264/1.1
+1020	./.mozilla/firefox/qiwdaair.default/gmp-gmpopenh264
+8	./.mozilla/firefox/qiwdaair.default/bookmarkbackups
+8	./.mozilla/firefox/qiwdaair.default/webapps
+17296	./.mozilla/firefox/qiwdaair.default
+17316	./.mozilla/firefox
+17324	./.mozilla
+4	./.dbus
+8	./.gconf/apps/gnome-terminal/profiles/Default
+12	./.gconf/apps/gnome-terminal/profiles
+16	./.gconf/apps/gnome-terminal
+8	./.gconf/apps/nm-applet
+28	./.gconf/apps
+32	./.gconf
+4	./Videos
+151216	.
+Filesystem     1K-blocks      Used Available Use% Mounted on
+/dev/sda6       25671196   4113732  20230364  17% /
+none                   4         0         4   0% /sys/fs/cgroup
+udev             2997828         4   2997824   1% /dev
+tmpfs             601792      1056    600736   1% /run
+none                5120         4      5116   1% /run/lock
+none             3008940       240   3008700   1% /run/shm
+none              102400        68    102332   1% /run/user
+/dev/sdc1       15617008   2863928  12753080  19% /media/priya/PRIYA
+/dev/sda3      203231228 122618844  80612384  61% /media/priya/stuff
+1016K	./.config/libreoffice/4/user/database/biblio
+1.1M	./.config/libreoffice/4/user/database
+4.0K	./.config/libreoffice/4/user/uno_packages/cache/uno_packages
+4.0K	./.config/libreoffice/4/user/uno_packages/cache/registry/com.sun.star.comp.deployment.script.PackageRegistryBackend
+4.0K	./.config/libreoffice/4/user/uno_packages/cache/registry/com.sun.star.comp.deployment.component.PackageRegistryBackend
+4.0K	./.config/libreoffice/4/user/uno_packages/cache/registry/com.sun.star.comp.deployment.sfwk.PackageRegistryBackend
+4.0K	./.config/libreoffice/4/user/uno_packages/cache/registry/com.sun.star.comp.deployment.bundle.PackageRegistryBackend
+8.0K	./.config/libreoffice/4/user/uno_packages/cache/registry/com.sun.star.comp.deployment.help.PackageRegistryBackend
+8.0K	./.config/libreoffice/4/user/uno_packages/cache/registry/com.sun.star.comp.deployment.configuration.PackageRegistryBackend
+4.0K	./.config/libreoffice/4/user/uno_packages/cache/registry/com.sun.star.comp.deployment.executable.PackageRegistryBackend
+40K	./.config/libreoffice/4/user/uno_packages/cache/registry
+52K	./.config/libreoffice/4/user/uno_packages/cache
+56K	./.config/libreoffice/4/user/uno_packages
+4.0K	./.config/libreoffice/4/user/extensions/tmp/extensions
+4.0K	./.config/libreoffice/4/user/extensions/tmp/registry/com.sun.star.comp.deployment.script.PackageRegistryBackend
+4.0K	./.config/libreoffice/4/user/extensions/tmp/registry/com.sun.star.comp.deployment.component.PackageRegistryBackend
+4.0K	./.config/libreoffice/4/user/extensions/tmp/registry/com.sun.star.comp.deployment.sfwk.PackageRegistryBackend
+4.0K	./.config/libreoffice/4/user/extensions/tmp/registry/com.sun.star.comp.deployment.bundle.PackageRegistryBackend
+8.0K	./.config/libreoffice/4/user/extensions/tmp/registry/com.sun.star.comp.deployment.help.PackageRegistryBackend
+8.0K	./.config/libreoffice/4/user/extensions/tmp/registry/com.sun.star.comp.deployment.configuration.PackageRegistryBackend
+4.0K	./.config/libreoffice/4/user/extensions/tmp/registry/com.sun.star.comp.deployment.executable.PackageRegistryBackend
+40K	./.config/libreoffice/4/user/extensions/tmp/registry
+48K	./.config/libreoffice/4/user/extensions/tmp
+4.0K	./.config/libreoffice/4/user/extensions/shared/registry/com.sun.star.comp.deployment.script.PackageRegistryBackend
+4.0K	./.config/libreoffice/4/user/extensions/shared/registry/com.sun.star.comp.deployment.component.PackageRegistryBackend
+4.0K	./.config/libreoffice/4/user/extensions/shared/registry/com.sun.star.comp.deployment.sfwk.PackageRegistryBackend
+4.0K	./.config/libreoffice/4/user/extensions/shared/registry/com.sun.star.comp.deployment.bundle.PackageRegistryBackend
+8.0K	./.config/libreoffice/4/user/extensions/shared/registry/com.sun.star.comp.deployment.help.PackageRegistryBackend
+8.0K	./.config/libreoffice/4/user/extensions/shared/registry/com.sun.star.comp.deployment.configuration.PackageRegistryBackend
+4.0K	./.config/libreoffice/4/user/extensions/shared/registry/com.sun.star.comp.deployment.executable.PackageRegistryBackend
+40K	./.config/libreoffice/4/user/extensions/shared/registry
+48K	./.config/libreoffice/4/user/extensions/shared
+4.0K	./.config/libreoffice/4/user/extensions/bundled/registry/com.sun.star.comp.deployment.script.PackageRegistryBackend
+4.0K	./.config/libreoffice/4/user/extensions/bundled/registry/com.sun.star.comp.deployment.component.PackageRegistryBackend
+4.0K	./.config/libreoffice/4/user/extensions/bundled/registry/com.sun.star.comp.deployment.sfwk.PackageRegistryBackend
+4.0K	./.config/libreoffice/4/user/extensions/bundled/registry/com.sun.star.comp.deployment.bundle.PackageRegistryBackend
+8.0K	./.config/libreoffice/4/user/extensions/bundled/registry/com.sun.star.comp.deployment.help.PackageRegistryBackend
+8.0K	./.config/libreoffice/4/user/extensions/bundled/registry/com.sun.star.comp.deployment.configuration.PackageRegistryBackend
+4.0K	./.config/libreoffice/4/user/extensions/bundled/registry/com.sun.star.comp.deployment.executable.PackageRegistryBackend
+40K	./.config/libreoffice/4/user/extensions/bundled/registry
+48K	./.config/libreoffice/4/user/extensions/bundled
+152K	./.config/libreoffice/4/user/extensions
+8.0K	./.config/libreoffice/4/user/autotext
+4.0K	./.config/libreoffice/4/user/autocorr
+12K	./.config/libreoffice/4/user/gallery
+16K	./.config/libreoffice/4/user/basic/Standard
+28K	./.config/libreoffice/4/user/basic
+4.0K	./.config/libreoffice/4/user/config/soffice.cfg/modules/swriter/toolbar
+4.0K	./.config/libreoffice/4/user/config/soffice.cfg/modules/swriter/images/Bitmaps
+8.0K	./.config/libreoffice/4/user/config/soffice.cfg/modules/swriter/images
+4.0K	./.config/libreoffice/4/user/config/soffice.cfg/modules/swriter/statusbar
+4.0K	./.config/libreoffice/4/user/config/soffice.cfg/modules/swriter/menubar
+24K	./.config/libreoffice/4/user/config/soffice.cfg/modules/swriter
+28K	./.config/libreoffice/4/user/config/soffice.cfg/modules
+32K	./.config/libreoffice/4/user/config/soffice.cfg
+440K	./.config/libreoffice/4/user/config
+40K	./.config/libreoffice/4/user/psprint
+1.9M	./.config/libreoffice/4/user
+1.9M	./.config/libreoffice/4
+1.9M	./.config/libreoffice
+4.0K	./.config/unity
+8.0K	./.config/compiz-1/compizconfig
+12K	./.config/compiz-1
+4.0K	./.config/gnome-session/saved-session
+8.0K	./.config/gnome-session
+4.0K	./.config/enchant
+8.0K	./.config/gtk-3.0
+16K	./.config/dconf
+4.0K	./.config/upstart
+16K	./.config/libaccounts-glib
+12K	./.config/ibus/bus
+16K	./.config/ibus
+72K	./.config/pulse
+20K	./.config/nautilus
+8.0K	./.config/gnome-control-center/backgrounds
+12K	./.config/gnome-control-center
+8.0K	./.config/update-notifier
+8.0K	./.config/evolution/sources
+12K	./.config/evolution
+12K	./.config/gedit
+2.1M	./.config
+8.0K	./Documents
+4.0K	./Templates
+4.0K	./.gvfs
+4.0K	./Music
+8.0K	./.macromedia/Flash_Player/#SharedObjects/XY59JV3U/pagead2.googlesyndication.com/pagead/imgad
+12K	./.macromedia/Flash_Player/#SharedObjects/XY59JV3U/pagead2.googlesyndication.com/pagead
+16K	./.macromedia/Flash_Player/#SharedObjects/XY59JV3U/pagead2.googlesyndication.com
+8.0K	./.macromedia/Flash_Player/#SharedObjects/XY59JV3U/tpc.googlesyndication.com/pagead/imgad
+12K	./.macromedia/Flash_Player/#SharedObjects/XY59JV3U/tpc.googlesyndication.com/pagead
+16K	./.macromedia/Flash_Player/#SharedObjects/XY59JV3U/tpc.googlesyndication.com
+4.0K	./.macromedia/Flash_Player/#SharedObjects/XY59JV3U/s.ytimg.com
+40K	./.macromedia/Flash_Player/#SharedObjects/XY59JV3U
+44K	./.macromedia/Flash_Player/#SharedObjects
+8.0K	./.macromedia/Flash_Player/macromedia.com/support/flashplayer/sys/#pagead2.googlesyndication.com
+8.0K	./.macromedia/Flash_Player/macromedia.com/support/flashplayer/sys/#tpc.googlesyndication.com
+8.0K	./.macromedia/Flash_Player/macromedia.com/support/flashplayer/sys/#s.ytimg.com
+32K	./.macromedia/Flash_Player/macromedia.com/support/flashplayer/sys
+36K	./.macromedia/Flash_Player/macromedia.com/support/flashplayer
+40K	./.macromedia/Flash_Player/macromedia.com/support
+44K	./.macromedia/Flash_Player/macromedia.com
+92K	./.macromedia/Flash_Player
+96K	./.macromedia
+4.0K	./Desktop
+104K	./.local/share/zeitgeist/fts.index
+268K	./.local/share/zeitgeist
+4.0K	./.local/share/sounds
+148K	./.local/share/gvfs-metadata
+12K	./.local/share/keyrings
+8.0K	./.local/share/icc
+68K	./.local/share/shotwell/data
+72K	./.local/share/shotwell
+20K	./.local/share/unity-webapps
+4.0K	./.local/share/unity-settings-daemon
+8.0K	./.local/share/telepathy/mission-control
+12K	./.local/share/telepathy
+4.0K	./.local/share/nautilus/scripts
+8.0K	./.local/share/nautilus
+4.0K	./.local/share/applications
+4.0K	./.local/share/evolution/addressbook/trash
+8.0K	./.local/share/evolution/addressbook
+8.0K	./.local/share/evolution/tasks/system
+4.0K	./.local/share/evolution/tasks/trash
+16K	./.local/share/evolution/tasks
+8.0K	./.local/share/evolution/calendar/system
+4.0K	./.local/share/evolution/calendar/trash
+16K	./.local/share/evolution/calendar
+4.0K	./.local/share/evolution/memos/trash
+8.0K	./.local/share/evolution/memos
+4.0K	./.local/share/evolution/mail/trash
+8.0K	./.local/share/evolution/mail
+60K	./.local/share/evolution
+640K	./.local/share
+644K	./.local
+4.0K	./Public
+16M	./Downloads
+4.0K	./Pictures
+988K	./.cache/mozilla/firefox/qiwdaair.default/thumbnails
+4.0M	./.cache/mozilla/firefox/qiwdaair.default/safebrowsing
+116K	./.cache/mozilla/firefox/qiwdaair.default/startupCache
+103M	./.cache/mozilla/firefox/qiwdaair.default/cache2/entries
+4.0K	./.cache/mozilla/firefox/qiwdaair.default/cache2/doomed
+103M	./.cache/mozilla/firefox/qiwdaair.default/cache2
+108M	./.cache/mozilla/firefox/qiwdaair.default
+108M	./.cache/mozilla/firefox
+108M	./.cache/mozilla
+1.6M	./.cache/thumbnails/large
+776K	./.cache/thumbnails/normal
+8.0K	./.cache/thumbnails/fail/gnome-thumbnail-factory
+12K	./.cache/thumbnails/fail
+2.4M	./.cache/thumbnails
+696K	./.cache/wallpaper
+16K	./.cache/sso
+740K	./.cache/gstreamer-1.0
+4.0K	./.cache/shotwell/thumbs/thumbs128
+4.0K	./.cache/shotwell/thumbs/thumbs360
+12K	./.cache/shotwell/thumbs
+20K	./.cache/shotwell
+4.0K	./.cache/gvfs-burn
+4.0K	./.cache/dconf
+520K	./.cache/upstart
+20K	./.cache/ibus/bus
+24K	./.cache/ibus
+264K	./.cache/fontconfig
+8.0K	./.cache/logrotate
+116K	./.cache/compizconfig-1
+16K	./.cache/update-manager-core
+72K	./.cache/oneconf/813e56ef1c4f171bda95b46b5448007c
+76K	./.cache/oneconf
+4.0K	./.cache/evolution/addressbook/trash
+8.0K	./.cache/evolution/addressbook
+4.0K	./.cache/evolution/tasks/trash
+8.0K	./.cache/evolution/tasks
+4.0K	./.cache/evolution/calendar/trash
+8.0K	./.cache/evolution/calendar
+4.0K	./.cache/evolution/memos/trash
+8.0K	./.cache/evolution/memos
+4.0K	./.cache/evolution/sources/trash
+8.0K	./.cache/evolution/sources
+4.0K	./.cache/evolution/mail/trash
+8.0K	./.cache/evolution/mail
+52K	./.cache/evolution
+113M	./.cache
+4.0K	./.adobe/Flash_Player/AssetCache/DMUQF6R3
+8.0K	./.adobe/Flash_Player/AssetCache
+12K	./.adobe/Flash_Player
+16K	./.adobe
+4.0K	./.mozilla/extensions
+4.0K	./.mozilla/firefox/Crash Reports/events
+12K	./.mozilla/firefox/Crash Reports
+4.0K	./.mozilla/firefox/qiwdaair.default/crashes/events
+12K	./.mozilla/firefox/qiwdaair.default/crashes
+1.1M	./.mozilla/firefox/qiwdaair.default/sessionstore-backups
+4.0K	./.mozilla/firefox/qiwdaair.default/minidumps
+4.0K	./.mozilla/firefox/qiwdaair.default/extensions
+8.0K	./.mozilla/firefox/qiwdaair.default/healthreport
+1016K	./.mozilla/firefox/qiwdaair.default/gmp-gmpopenh264/1.1
+1020K	./.mozilla/firefox/qiwdaair.default/gmp-gmpopenh264
+8.0K	./.mozilla/firefox/qiwdaair.default/bookmarkbackups
+8.0K	./.mozilla/firefox/qiwdaair.default/webapps
+17M	./.mozilla/firefox/qiwdaair.default
+17M	./.mozilla/firefox
+17M	./.mozilla
+4.0K	./.dbus
+8.0K	./.gconf/apps/gnome-terminal/profiles/Default
+12K	./.gconf/apps/gnome-terminal/profiles
+16K	./.gconf/apps/gnome-terminal
+8.0K	./.gconf/apps/nm-applet
+28K	./.gconf/apps
+32K	./.gconf
+4.0K	./Videos
+148M	.
+/dev/pts/6
+[?1049h[?1h=[1;41r[?12;25h[?12l[?25h[27m[23m[m[H[2J[?25l[2;1H[1m[34m~                                                                                                                                               [3;1H~                                                                                                                                               [4;1H~                                                                                                                                               [5;1H~                                                                                                                                               [6;1H~                                                                                                                                               [7;1H~                                                                                                                                               [8;1H~                                                                                                                                               [9;1H~                                                                                                                                               [10;1H~                                                                                                                                               [11;1H~                                                                                                                                               [12;1H~                                                                                                                                               [13;1H~                                                                                                                                               [14;1H~                                                                                                                                               [15;1H~                                                                                                                                               [16;1H~                                                                                                                                               [17;1H~                                                                                                                                               [18;1H~                                                                                                                                               [19;1H~                                                                                                                                               [20;1H~                                                                                                                                               [21;1H~                                                                                                                                               [22;1H~                                                                                                                                               [23;1H~                                                                                                                                               [24;1H~                                                                                                                                               [25;1H~                                                                                                                                               [26;1H~                                                                                                                                               [27;1H~                                                                                                                                               [28;1H~                                                                                                                                               [29;1H~                                                                                                                                               [30;1H~                                                                                                                                               [31;1H~                                                                                                                                               [32;1H~                                                                                                                                               [33;1H~                                                                                                                                               [34;1H~                                                                                                                                               [35;1H~                                                                                                                                               [36;1H~                                                                                                                                               [37;1H~                                                                                                                                               [38;1H~                                                                                                                                               [39;1H~                                                                                                                                               [40;1H~                                                                                                                                               [m[13;64HVIM - Vi IMproved[15;65Hversion 7.4.273[16;61Hby Bram Moolenaar et al.[17;45HModified by pkg-vim-maintainers@lists.alioth.debian.org[18;51HVim is open source and freely distributable[20;61HSponsor Vim development![21;50Htype  :help sponsor[34m<Enter>[m    for information [23;50Htype  :q[34m<Enter>[m               to exit         [24;50Htype  :help[34m<Enter>[m  or  [34m<F1>[m  for on-line help[25;50Htype  :help version7[34m<Enter>[m   for version info[27;58HRunning in Vi compatible mode[28;50Htype  :set nocp[34m<Enter>[m        for Vim defaults[29;50Htype  :help cp-default[34m<Enter>[m for info on this[1;1H[?12l[?25h[?25l[41;1HType  :quit<Enter>  to exit Vim[1;1H[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25lc[13;64H[1m[34m                 [15;65H               [16;61H                        [17;45H                                                       [18;51H                                           [20;61H                        [21;50H                                              [23;50H                                              [24;50H                                              [25;50H                                              [27;58H                             [28;50H                                              [29;50H                                              [1;2H[?12l[?25h[?25l[mc[?12l[?25hccNAME     LINE         TIME             COMMENT
+priya    :0           2015-01-23 14:38 (:0)
+priya    pts/6        2015-01-23 16:19 (:0)
+priya    pts/26       2015-01-23 16:38 (:0)
+[27m[23m[m[H[2J[?25l[1;1Hcc
+[1m[34m~                                                                                                                                               [3;1H~                                                                                                                                               [4;1H~                                                                                                                                               [5;1H~                                                                                                                                               [6;1H~                                                                                                                                               [7;1H~                                                                                                                                               [8;1H~                                                                                                                                               [9;1H~                                                                                                                                               [10;1H~                                                                                                                                               [11;1H~                                                                                                                                               [12;1H~                                                                                                                                               [13;1H~                                                                                                                                               [14;1H~                                                                                                                                               [15;1H~                                                                                                                                               [16;1H~                                                                                                                                               [17;1H~                                                                                                                                               [18;1H~                                                                                                                                               [19;1H~                                                                                                                                               [20;1H~                                                                                                                                               [21;1H~                                                                                                                                               [22;1H~                                                                                                                                               [23;1H~                                                                                                                                               [24;1H~                                                                                                                                               [25;1H~                                                                                                                                               [26;1H~                                                                                                                                               [27;1H~                                                                                                                                               [28;1H~                                                                                                                                               [29;1H~                                                                                                                                               [30;1H~                                                                                                                                               [31;1H~                                                                                                                                               [32;1H~                                                                                                                                               [33;1H~                                                                                                                                               [34;1H~                                                                                                                                               [35;1H~                                                                                                                                               [36;1H~                                                                                                                                               [37;1H~                                                                                                                                               [38;1H~                                                                                                                                               [1;2H[?12l[?25h[27m[23m[m[H[2J[?25l[1;1Hcc
+[1m[34m~                                                                                                                                               [3;1H~                                                                                                                                               [4;1H~                                                                                                                                               [5;1H~                                                                                                                                               [6;1H~                                                                                                                                               [7;1H~                                                                                                                                               [8;1H~                                                                                                                                               [9;1H~                                                                                                                                               [10;1H~                                                                                                                                               [11;1H~                                                                                                                                               [12;1H~                                                                                                                                               [13;1H~                                                                                                                                               [14;1H~                                                                                                                                               [15;1H~                                                                                                                                               [16;1H~                                                                                                                                               [17;1H~                                                                                                                                               [18;1H~                                                                                                                                               [19;1H~                                                                                                                                               [20;1H~                                                                                                                                               [21;1H~                                                                                                                                               [22;1H~                                                                                                                                               [23;1H~                                                                                                                                               [24;1H~                                                                                                                                               [25;1H~                                                                                                                                               [26;1H~                                                                                                                                               [27;1H~                                                                                                                                               [28;1H~                                                                                                                                               [29;1H~                                                                                                                                               [30;1H~                                                                                                                                               [31;1H~                                                                                                                                               [32;1H~                                                                                                                                               [33;1H~                                                                                                                                               [34;1H~                                                                                                                                               [35;1H~                                                                                                                                               [36;1H~                                                                                                                                               [37;1H~                                                                                                                                               [38;1H~                                                                                                                                               [39;1H~                                                                                                                                               [40;1H~                                                                                                                                               [1;2H[?12l[?25h[41;1H[m[?1l>[?1049lVim: Caught deadly signal HUP
+Vim: preserving files...
+Vim: Finished.
+[41;1Hfsck from util-linux 2.25.1
+/dev/sda6 is mounted.
+test: /usr/bin/test /usr/share/man/man1/test.1.gz
+iw version 3.14
+)321tseug si drowssap( tseug sa nigoL .1
+tneduts us	
+
+yrotceriD tneserp eht dniF .2
+dwp	
+
+erutcurts yrotcerid / eht etirW .3
+eert	
+ 	
+yrotcerid nibs/ dna nib/ ni elbaliava sdnammoc wef a etirW .4
+nib/emoh/toor/ dc	
+ sdnammoc nib/	
+sl		
+1wen ridkm		
+dc		
+etad		
+
+nibs/emoh/toor/ dc	
+sdnammoc nibs/	
+kcolc		
+
+yrotcerid tseug eht dniF .5
+tneduts etacol	
+
+yrotcerid tseug fo snoissimrep eht etirW .6
+l- sl	
+
+yrotcerid tseug ni tset yrotceriD wen a etaerC .7
+tset ridkm	
+
+yrotcerid tset fo snoissimrep eht etirW .8
+l- sl	
+
+yrotcerid tset ni fnoc.vloser/cte/ elif eht ypoC .9
+tset/ fnoc.vloser/cte/ pc	
+
+gnitset ot yrotcerid tset eht emaneR .01
+gnitset/ tset/ vm	
+
+yrotcerid gnitset eht eteleD .11
+gnitset/ mr 	
+
+577 ot yrotcerid tseug fo snoissimrep eht egnahC .21
+tneduts/ dc	
+577 domhc	
+
+007 ot yrotcerid pmt/ fo snoissimrep eht egnahC .31
+pmt/tneduts/ dc	
+577 domhc	
+
+ resu toor sa nigoL .41
+ us	
+
+007 ot yrotcerid tseug fo snoissimrep eht egnahC .51
+tneduts/emoh/toor/ dc	
+007 domhc	
+
+.metsys ruoy ni gnisu era uoy noisrev lenrek eht etirw ,elif lenrek eht ta gnikool yb dna toob/ si metsyS eliF xinU ni selif lenrek fo noitacol ehT .61
+v- emanu	
+
+tseug sa nigoL .71
+tneduts us	
+
+/ ot yrotcerid egnahC .81
+.. dc	
+
+yrotcerid emoh/ fo stnetnoc eht tsiL .91
+dl- sl	
+
+sgnoleb tseug hcihw ot puorg eht dniF .02
+di	
+
+)dnammoc hcuot esu :tnih( tseug fo aera emoh eht ni ibdis elif a etaerC .12
+ibdis hcuot	
+
+ibdis elif eht fo snoissimrep eht dniF .22
+ ibdis/ l- sl	
+
+)il– sl :tnih( ibdis elif fo rebmun edoni eht dniF .32
+il- sl	
+
+1ibdis ot ibdis elif eht ypoC .42
+1ibdis/ ibdis/ pc	
+
+)il– sl :tnih( 1ibdis elif fo rebmun edoni eht dniF .52
+il- sl	
+
+2ibdis ot ibdis elif eht evoM .62
+1ibdis/ ibdis/  vm	
+
+)il– sl :tnih( 2ibdis elif fo rebmun edoni eht dniF .72
+il- sl	
+
+ibdis ot 2ibdis evoM .82
+ibdis/ 2ibdis/ vm	
+
+toor sa nigoL .92
+us	
+
+]esruoc eht ni retal siht no eroM[)spuorG dna sresU sgnitteS metsySsnoitacilppA loot IUG esu :tnih( tseug sa puorg emas htiw 1tseug resu wen a etaerC .03
+
+)spuorG dna sresU sgnitteS metsySsnoitacilppA loot IUG esu :tnih( tseug fo puorg eht naht puorg tnereffid a htiw 2tseug resu wen a etaerC .13
+
+.elif siht otni etirw nac 2tseug dna 1tseug htob taht os ,evah ibdis elif eht dluohs snoissimrep tahw ,dniF .23
+il- sl	
+077 domhc	
+
+
+enable .
+enable :
+enable [
+enable alias
+enable bg
+enable bind
+enable break
+enable builtin
+enable caller
+enable cd
+enable command
+enable compgen
+enable complete
+enable compopt
+enable continue
+enable declare
+enable dirs
+enable disown
+enable echo
+enable enable
+enable eval
+enable exec
+enable exit
+enable export
+enable false
+enable fc
+enable fg
+enable getopts
+enable hash
+enable help
+enable history
+enable jobs
+enable kill
+enable let
+enable local
+enable logout
+enable mapfile
+enable popd
+enable printf
+enable pushd
+enable pwd
+enable read
+enable readarray
+enable readonly
+enable return
+enable set
+enable shift
+enable shopt
+enable source
+enable suspend
+enable test
+enable times
+enable trap
+enable true
+enable type
+enable typeset
+enable ulimit
+enable umask
+enable unalias
+enable unset
+enable wait
+priya    pts/26       :0               Fri Jan 23 16:38   still logged in   
+priya    pts/6        :0               Fri Jan 23 16:19 - 16:39  (00:19)    
+priya    pts/6        :0               Fri Jan 23 14:38 - 16:19  (01:40)    
+priya    :0           :0               Fri Jan 23 14:38   still logged in   
+reboot   system boot  3.16.0-23-generi Fri Jan 23 14:38 - 16:43  (02:05)    
+priya    pts/3        :0               Fri Jan 23 14:14 - down   (00:22)    
+priya    pts/3        :0               Fri Jan 23 14:06 - 14:07  (00:01)    
+priya    :0           :0               Fri Jan 23 14:06 - down   (00:31)    
+reboot   system boot  3.16.0-23-generi Fri Jan 23 14:05 - 14:37  (00:31)    
+priya    :0           :0               Wed Jan 21 21:47 - down   (00:00)    
+reboot   system boot  3.16.0-23-generi Wed Jan 21 21:47 - 21:48  (00:01)    
+priya    :0           :0               Wed Jan 21 20:30 - down   (01:15)    
+reboot   system boot  3.16.0-23-generi Wed Jan 21 20:30 - 21:46  (01:16)    
+priya    :0           :0               Wed Jan 21 16:00 - down   (00:00)    
+reboot   system boot  3.16.0-23-generi Wed Jan 21 16:00 - 16:00  (00:00)    
+guest-RB :1           :1               Tue Jan 20 23:14 - down   (00:04)    
+priya    pts/0        :0               Tue Jan 20 22:53 - 23:14  (00:21)    
+priya    :0           :0               Tue Jan 20 21:31 - down   (01:48)    
+reboot   system boot  3.16.0-23-generi Tue Jan 20 21:31 - 23:19  (01:48)    
+priya    :0           :0               Tue Jan 20 12:14 - down   (00:02)    
+reboot   system boot  3.16.0-23-generi Tue Jan 20 12:14 - 12:17  (00:02)    
+priya    pts/0        :0               Tue Jan 20 12:07 - 12:08  (00:00)    
+priya    :0           :0               Tue Jan 20 12:06 - down   (00:02)    
+reboot   system boot  3.16.0-23-generi Tue Jan 20 12:06 - 12:09  (00:02)    
+priya    pts/4        :0               Mon Jan 19 23:24 - 23:25  (00:00)    
+priya    :0           :0               Mon Jan 19 23:24 - down   (00:01)    
+reboot   system boot  3.16.0-23-generi Mon Jan 19 23:24 - 23:25  (00:01)    
+priya    pts/0        :0               Mon Jan 19 22:56 - 22:57  (00:00)    
+priya    pts/0        :0               Mon Jan 19 22:23 - 22:55  (00:31)    
+priya    pts/0        :0               Mon Jan 19 22:22 - 22:23  (00:01)    
+priya    pts/0        :0               Mon Jan 19 22:21 - 22:22  (00:01)    
+priya    :0           :0               Tue Jan 20 03:27 - down   (-4:-30)   
+reboot   system boot  3.16.0-23-generi Tue Jan 20 03:27 - 22:57  (-4:-30)   
+
+wtmp begins Tue Jan 20 03:27:34 2015
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	 
+10. Rename the test directory to testing
+11. Delete the testing directory
+12. Change the permissions of guest directory to 775
+13. Change the permissions of /tmp directory to 700
+14. Login as root user 
+15. Change the permissions of guest directory to 700
+16. The location of kernel files in Unix File System is /boot and by looking at the kernel file, write the kernel version you are using in your system.
+17. Login as guest
+18. Change directory to /
+19. List the contents of /home directory
+1. Login as guest (password is guest123)
+20. Find the group to which guest belongs
+21. Create a file sidbi in the home area of guest (hint: use touch command)
+22. Find the permissions of the file sidbi
+23. Find the inode number of file sidbi (hint: ls –li)
+24. Copy the file sidbi to sidbi1
+25. Find the inode number of file sidbi1 (hint: ls –li)
+26. Move the file sidbi to sidbi2
+27. Find the inode number of file sidbi2 (hint: ls –li)
+28. Move sidbi2 to sidbi
+29. Login as root
+2. Find the present Directory
+30. Create a new user guest1 with same group as guest (hint: use GUI tool ApplicationsSystem Settings Users and Groups)[More on this later in the course]
+31. Create a new user guest2 with a different group than the group of guest (hint: use GUI tool ApplicationsSystem Settings Users and Groups)
+32. Find, what permissions should the file sidbi have, so that both guest1 and guest2 can write into this file.
+3. Write the / directory structure
+4. Write a few commands available in /bin and /sbin directory
+5. Find the guest directory
+6. Write the permissions of guest directory
+7. Create a new Directory test in guest directory
+8. Write the permissions of test directory
+9. Copy the file /etc/resolv.conf in test directory
+	/bin commands 
+		cd
+	cd ..
+	cd /root/home/bin
+	cd /root/home/sbin
+	cd /root/home/student
+	cd /student
+	cd /student/tmp
+	chmod 700
+	chmod 770
+	chmod 775
+	chmod 775
+		clock
+	cp /etc/resolv.conf /test
+	cp /sidbi /sidbi1
+		date
+	id
+	locate student
+		ls
+	ls -l
+	ls -l
+	ls -ld
+	ls -li
+	ls -li
+	ls -li
+	ls -li
+	ls -l /sidbi 
+		mkdir new1
+	mkdir test
+	mv /sidbi2 /sidbi
+	mv  /sidbi /sidbi1
+	mv /test /testing
+	pwd
+	 rm /testing
+	/sbin commands
+	su
+	su 
+	su student
+	su student
+	touch sidbi
+	tree
+	uname -v
+1. Login as guest (password is guest123)
+	su student
+
+2. Find the present Directory
+	pwd
+
+3. Write the / directory structure
+	tree
+	 
+4. Write a few commands available in /bin and /sbin directory
+	cd /root/home/bin
+	/bin commands 
+		ls
+		mkdir new1
+		cd
+		date
+
+	cd /root/home/sbin
+	/sbin commands
+		clock
+
+5. Find the guest directory
+	locate student
+
+6. Write the permissions of guest directory
+	ls -l
+
+7. Create a new Directory test in guest directory
+	mkdir test
+
+8. Write the permissions of test directory
+	ls -l
+
+9. Copy the file /etc/resolv.conf in test directory
+	cp /etc/resolv.conf /test
+
+10. Rename the test directory to testing
+	mv /test /testing
+
+11. Delete the testing directory
+	 rm /testing
+
+12. Change the permissions of guest directory to 775
+	cd /student
+	chmod 775
+
+13. Change the permissions of /tmp directory to 700
+	cd /student/tmp
+	chmod 775
+
+14. Login as root user 
+	su 
+
+15. Change the permissions of guest directory to 700
+	cd /root/home/student
+	chmod 700
+
+16. The location of kernel files in Unix File System is /boot and by looking at the kernel file, write the kernel version you are using in your system.
+	uname -v
+
+17. Login as guest
+	su student
+
+18. Change directory to /
+	cd ..
+
+19. List the contents of /home directory
+	ls -ld
+
+20. Find the group to which guest belongs
+	id
+
+21. Create a file sidbi in the home area of guest (hint: use touch command)
+	touch sidbi
+
+22. Find the permissions of the file sidbi
+	ls -l /sidbi 
+
+23. Find the inode number of file sidbi (hint: ls –li)
+	ls -li
+
+24. Copy the file sidbi to sidbi1
+	cp /sidbi /sidbi1
+
+25. Find the inode number of file sidbi1 (hint: ls –li)
+	ls -li
+
+26. Move the file sidbi to sidbi2
+	mv  /sidbi /sidbi1
+
+27. Find the inode number of file sidbi2 (hint: ls –li)
+	ls -li
+
+28. Move sidbi2 to sidbi
+	mv /sidbi2 /sidbi
+
+29. Login as root
+	su
+
+30. Create a new user guest1 with same group as guest (hint: use GUI tool ApplicationsSystem Settings Users and Groups)[More on this later in the course]
+
+31. Create a new user guest2 with a different group than the group of guest (hint: use GUI tool ApplicationsSystem Settings Users and Groups)
+
+32. Find, what permissions should the file sidbi have, so that both guest1 and guest2 can write into this file.
+	ls -li
+	chmod 770
+
+
+eth0      Link encap:Ethernet  HWaddr 24:b6:fd:57:13:2c  
+          inet addr:10.20.4.7  Bcast:10.20.7.255  Mask:255.255.248.0
+          inet6 addr: fe80::26b6:fdff:fe57:132c/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:645157 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:11044 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:122246364 (122.2 MB)  TX bytes:1621834 (1.6 MB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:2048 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:2048 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:190304 (190.3 KB)  TX bytes:190304 (190.3 KB)
+
+wlan0     Link encap:Ethernet  HWaddr e0:06:e6:a1:5c:db  
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+  PID TTY          TIME CMD
+ 1725 ?        00:00:00 gnome-keyring-d
+ 1727 ?        00:00:00 upstart
+ 1784 ?        00:00:02 dbus-daemon
+ 1794 ?        00:00:00 window-stack-br
+ 1795 ?        00:00:00 upstart-event-b
+ 1803 ?        00:00:00 upstart-file-br
+ 1806 ?        00:00:00 upstart-dbus-br
+ 1807 ?        00:00:00 upstart-dbus-br
+ 1808 ?        00:00:11 ibus-daemon
+ 1817 ?        00:00:00 gvfsd
+ 1821 ?        00:00:00 gvfsd-fuse
+ 1838 ?        00:00:05 hud-service
+ 1840 ?        00:00:01 unity-settings-
+ 1843 ?        00:00:00 at-spi-bus-laun
+ 1845 ?        00:00:00 ibus-dconf
+ 1849 ?        00:00:00 dbus-daemon
+ 1851 ?        00:00:01 ibus-ui-gtk3
+ 1855 ?        00:00:06 ibus-x11
+ 1856 ?        00:00:00 gnome-session
+ 1860 ?        00:00:57 compiz
+ 1861 ?        00:00:08 unity-panel-ser
+ 1866 ?        00:00:00 at-spi2-registr
+ 1871 ?        00:00:04 ibus-engine-sim
+ 1884 ?        00:00:02 bamfdaemon
+ 1938 ?        00:00:00 dconf-service
+ 1945 ?        00:00:00 pulseaudio
+ 1947 ?        00:00:00 indicator-messa
+ 1949 ?        00:00:00 indicator-bluet
+ 1951 ?        00:00:01 indicator-power
+ 1952 ?        00:00:00 indicator-datet
+ 1956 ?        00:00:00 indicator-keybo
+ 1961 ?        00:00:00 indicator-sound
+ 1962 ?        00:00:00 indicator-print
+ 1966 ?        00:00:00 indicator-sessi
+ 1998 ?        00:00:00 indicator-appli
+ 2043 ?        00:00:00 evolution-sourc
+ 2060 ?        00:00:00 notify-osd
+ 2061 ?        00:00:00 polkit-gnome-au
+ 2071 ?        00:01:03 nautilus
+ 2100 ?        00:00:02 nm-applet
+ 2102 ?        00:00:00 unity-fallback-
+ 2110 ?        00:00:00 gconfd-2
+ 2117 ?        00:00:00 gvfs-udisks2-vo
+ 2127 ?        00:00:00 syndaemon
+ 2208 ?        00:00:00 gvfs-mtp-volume
+ 2223 ?        00:00:00 gvfs-afc-volume
+ 2281 ?        00:00:00 gvfs-gphoto2-vo
+ 2312 ?        00:00:00 evolution-calen
+ 2325 ?        00:00:00 gvfsd-trash
+ 2354 ?        00:00:00 gvfsd-burn
+ 2463 ?        00:00:00 telepathy-indic
+ 2471 ?        00:00:01 mission-control
+ 2493 ?        00:00:00 zeitgeist-datah
+ 2498 ?        00:00:00 zeitgeist-daemo
+ 2505 ?        00:00:00 zeitgeist-fts
+ 2521 ?        00:00:00 cat
+ 2553 ?        00:00:00 update-notifier
+ 2576 ?        00:00:00 deja-dup-monito
+ 4675 ?        00:03:17 firefox
+ 4698 ?        00:00:00 unity-webapps-s
+ 4799 ?        00:00:00 unity-scope-hom
+ 4809 ?        00:00:00 unity-scope-loa
+ 4811 ?        00:00:00 unity-files-dae
+ 4941 ?        00:00:00 gvfsd-metadata
+ 7054 ?        00:00:00 screen
+ 7055 pts/0    00:00:00 bash
+ 7194 pts/0    00:00:00 top
+ 7428 ?        00:00:05 gnome-terminal
+ 7432 ?        00:00:00 gnome-pty-helpe
+ 7631 ?        00:00:20 plugin-containe
+ 7957 pts/26   00:00:00 bash
+ 8144 pts/26   00:00:00 ps
+         system boot  2015-01-23 14:38
+Linux U-Linux 3.16.0-23-generic #31-Ubuntu SMP Tue Oct 21 17:56:17 UTC 2014 x86_64 x86_64 x86_64 GNU/Linux
+             total       used       free     shared    buffers     cached
+Mem:       6017884    5201724     816160     236280    2029132    2252512
+-/+ buffers/cache:     920080    5097804
+Swap:      2951164          0    2951164
+1. Login as guest (password is guest123)			1. Login as guest (password is guest123)
+	su student							su student
+
+2. Find the present Directory					2. Find the present Directory
+	pwd								pwd
+
+3. Write the / directory structure				3. Write the / directory structure
+	tree								tree
+	 								 
+4. Write a few commands available in /bin and /sbin directory	4. Write a few commands available in /bin and /sbin directory
+	cd /root/home/bin						cd /root/home/bin
+	/bin commands 							/bin commands 
+		ls								ls
+		mkdir new1							mkdir new1
+		cd								cd
+		date								date
+
+	cd /root/home/sbin						cd /root/home/sbin
+	/sbin commands							/sbin commands
+		clock								clock
+
+5. Find the guest directory					5. Find the guest directory
+	locate student							locate student
+
+6. Write the permissions of guest directory			6. Write the permissions of guest directory
+	ls -l								ls -l
+
+7. Create a new Directory test in guest directory		7. Create a new Directory test in guest directory
+	mkdir test							mkdir test
+
+8. Write the permissions of test directory			8. Write the permissions of test directory
+	ls -l								ls -l
+
+9. Copy the file /etc/resolv.conf in test directory		9. Copy the file /etc/resolv.conf in test directory
+	cp /etc/resolv.conf /test					cp /etc/resolv.conf /test
+
+10. Rename the test directory to testing			10. Rename the test directory to testing
+	mv /test /testing						mv /test /testing
+
+11. Delete the testing directory				11. Delete the testing directory
+	 rm /testing							 rm /testing
+
+12. Change the permissions of guest directory to 775		12. Change the permissions of guest directory to 775
+	cd /student							cd /student
+	chmod 775							chmod 775
+
+13. Change the permissions of /tmp directory to 700		13. Change the permissions of /tmp directory to 700
+	cd /student/tmp							cd /student/tmp
+	chmod 775							chmod 775
+
+14. Login as root user 						14. Login as root user 
+	su 								su 
+
+15. Change the permissions of guest directory to 700		15. Change the permissions of guest directory to 700
+	cd /root/home/student						cd /root/home/student
+	chmod 700							chmod 700
+
+16. The location of kernel files in Unix File System is /boot	16. The location of kernel files in Unix File System is /boot
+	uname -v							uname -v
+
+17. Login as guest						17. Login as guest
+	su student							su student
+
+18. Change directory to /					18. Change directory to /
+	cd ..								cd ..
+
+19. List the contents of /home directory			19. List the contents of /home directory
+	ls -ld								ls -ld
+
+20. Find the group to which guest belongs			20. Find the group to which guest belongs
+	id								id
+
+21. Create a file sidbi in the home area of guest (hint: use 	21. Create a file sidbi in the home area of guest (hint: use 
+	touch sidbi							touch sidbi
+
+22. Find the permissions of the file sidbi			22. Find the permissions of the file sidbi
+	ls -l /sidbi 							ls -l /sidbi 
+
+23. Find the inode number of file sidbi (hint: ls –li)		23. Find the inode number of file sidbi (hint: ls –li)
+	ls -li								ls -li
+
+24. Copy the file sidbi to sidbi1				24. Copy the file sidbi to sidbi1
+	cp /sidbi /sidbi1						cp /sidbi /sidbi1
+
+25. Find the inode number of file sidbi1 (hint: ls –li)		25. Find the inode number of file sidbi1 (hint: ls –li)
+	ls -li								ls -li
+
+26. Move the file sidbi to sidbi2				26. Move the file sidbi to sidbi2
+	mv  /sidbi /sidbi1						mv  /sidbi /sidbi1
+
+27. Find the inode number of file sidbi2 (hint: ls –li)		27. Find the inode number of file sidbi2 (hint: ls –li)
+	ls -li								ls -li
+
+28. Move sidbi2 to sidbi					28. Move sidbi2 to sidbi
+	mv /sidbi2 /sidbi						mv /sidbi2 /sidbi
+
+29. Login as root						29. Login as root
+	su								su
+
+30. Create a new user guest1 with same group as guest (hint: 	30. Create a new user guest1 with same group as guest (hint: 
+
+31. Create a new user guest2 with a different group than the 	31. Create a new user guest2 with a different group than the 
+
+32. Find, what permissions should the file sidbi have, so tha	32. Find, what permissions should the file sidbi have, so tha
+	ls -li								ls -li
+	chmod 770							chmod 770
+
+
+/:  Bus 02.Port 1: Dev 1, Class=root_hub, Driver=ehci-pci/2p, 480M
+    |__ Port 1: Dev 2, If 0, Class=Hub, Driver=hub/8p, 480M
+        |__ Port 2: Dev 3, If 0, Class=Mass Storage, Driver=usb-storage, 480M
+/:  Bus 01.Port 1: Dev 1, Class=root_hub, Driver=ehci-pci/2p, 480M
+    |__ Port 1: Dev 2, If 0, Class=Hub, Driver=hub/6p, 480M
+        |__ Port 2: Dev 5, If 0, Class=Mass Storage, Driver=usb-storage, 480M
+        |__ Port 4: Dev 3, If 0, Class=Wireless, Driver=btusb, 12M
+        |__ Port 4: Dev 3, If 1, Class=Wireless, Driver=btusb, 12M
+        |__ Port 5: Dev 4, If 0, Class=Video, Driver=uvcvideo, 480M
+        |__ Port 5: Dev 4, If 1, Class=Video, Driver=uvcvideo, 480M
+1. Login as guest (password is guest123)
+	su student
+
+2. Find the present Directory
+	pwd
+
+3. Write the / directory structure
+	tree
+	 
+4. Write a few commands available in /bin and /sbin directory
+
+30. Create a new user guest1 with same group as guest (hint: use GUI tool ApplicationsSystem Settings Users and Groups)[More on this later in the course]
+
+31. Create a new user guest2 with a different group than the group of guest (hint: use GUI tool ApplicationsSystem Settings Users and Groups)
+
+32. Find, what permissions should the file sidbi have, so that both guest1 and guest2 can write into this file.
+	ls -li
+	chmod 770
+
+
+[    0.000000] Initializing cgroup subsys cpuset
+[    0.000000] Initializing cgroup subsys cpu
+[    0.000000] Initializing cgroup subsys cpuacct
+[    0.000000] Linux version 3.16.0-23-generic (buildd@phianna) (gcc version 4.9.1 (Ubuntu 4.9.1-16ubuntu6) ) #31-Ubuntu SMP Tue Oct 21 17:56:17 UTC 2014 (Ubuntu 3.16.0-23.31-generic 3.16.4)
+[    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-3.16.0-23-generic root=UUID=c10799ec-5161-4d4d-b20d-2f686af3f477 ro quiet splash vt.handoff=7
+[    0.000000] KERNEL supported cpus:
+[    0.000000]   Intel GenuineIntel
+[    0.000000]   AMD AuthenticAMD
+[    0.000000]   Centaur CentaurHauls
+[    0.000000] e820: BIOS-provided physical RAM map:
+[    0.000000] BIOS-e820: [mem 0x0000000000000000-0x000000000009d3ff] usable
+[    0.000000] BIOS-e820: [mem 0x000000000009d400-0x000000000009ffff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000000e0000-0x00000000000fffff] reserved
+[    0.000000] BIOS-e820: [mem 0x0000000000100000-0x000000001fffffff] usable
+[    0.000000] BIOS-e820: [mem 0x0000000020000000-0x00000000201fffff] reserved
+[    0.000000] BIOS-e820: [mem 0x0000000020200000-0x000000003fffffff] usable
+[    0.000000] BIOS-e820: [mem 0x0000000040000000-0x00000000401fffff] reserved
+[    0.000000] BIOS-e820: [mem 0x0000000040200000-0x00000000da4e9fff] usable
+[    0.000000] BIOS-e820: [mem 0x00000000da4ea000-0x00000000da52cfff] ACPI NVS
+[    0.000000] BIOS-e820: [mem 0x00000000da52d000-0x00000000da797fff] usable
+[    0.000000] BIOS-e820: [mem 0x00000000da798000-0x00000000da966fff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000da967000-0x00000000dacbbfff] usable
+[    0.000000] BIOS-e820: [mem 0x00000000dacbc000-0x00000000dad67fff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000dad68000-0x00000000dafe7fff] ACPI NVS
+[    0.000000] BIOS-e820: [mem 0x00000000dafe8000-0x00000000daffffff] ACPI data
+[    0.000000] BIOS-e820: [mem 0x00000000db800000-0x00000000df9fffff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000f8000000-0x00000000fbffffff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000fec00000-0x00000000fec00fff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000fed00000-0x00000000fed03fff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000fed1c000-0x00000000fed1ffff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000fee00000-0x00000000fee00fff] reserved
+[    0.000000] BIOS-e820: [mem 0x00000000ff000000-0x00000000ffffffff] reserved
+[    0.000000] BIOS-e820: [mem 0x0000000100000000-0x000000019fdfffff] usable
+[    0.000000] NX (Execute Disable) protection: active
+[    0.000000] SMBIOS 2.6 present.
+[    0.000000] DMI: Dell Inc. Inspiron N5050/01HXXJ, BIOS A04 03/23/2012
+[    0.000000] e820: update [mem 0x00000000-0x00000fff] usable ==> reserved
+[    0.000000] e820: remove [mem 0x000a0000-0x000fffff] usable
+[    0.000000] AGP: No AGP bridge found
+[    0.000000] e820: last_pfn = 0x19fe00 max_arch_pfn = 0x400000000
+[    0.000000] MTRR default type: uncachable
+[    0.000000] MTRR fixed ranges enabled:
+[    0.000000]   00000-9FFFF write-back
+[    0.000000]   A0000-BFFFF uncachable
+[    0.000000]   C0000-D3FFF write-protect
+[    0.000000]   D4000-E7FFF uncachable
+[    0.000000]   E8000-FFFFF write-protect
+[    0.000000] MTRR variable ranges enabled:
+[    0.000000]   0 base 000000000 mask F00000000 write-back
+[    0.000000]   1 base 100000000 mask F80000000 write-back
+[    0.000000]   2 base 180000000 mask FE0000000 write-back
+[    0.000000]   3 base 0DB800000 mask FFF800000 uncachable
+[    0.000000]   4 base 0DC000000 mask FFC000000 uncachable
+[    0.000000]   5 base 0E0000000 mask FE0000000 uncachable
+[    0.000000]   6 base 19FE00000 mask FFFE00000 uncachable
+[    0.000000]   7 disabled
+[    0.000000]   8 disabled
+[    0.000000]   9 disabled
+[    0.000000] x86 PAT enabled: cpu 0, old 0x7040600070406, new 0x7010600070106
+[    0.000000] original variable MTRRs
+[    0.000000] reg 0, base: 0GB, range: 4GB, type WB
+[    0.000000] reg 1, base: 4GB, range: 2GB, type WB
+[    0.000000] reg 2, base: 6GB, range: 512MB, type WB
+[    0.000000] reg 3, base: 3512MB, range: 8MB, type UC
+[    0.000000] reg 4, base: 3520MB, range: 64MB, type UC
+[    0.000000] reg 5, base: 3584MB, range: 512MB, type UC
+[    0.000000] reg 6, base: 6654MB, range: 2MB, type UC
+[    0.000000] total RAM covered: 6070M
+[    0.000000] Found optimal setting for mtrr clean up
+[    0.000000]  gran_size: 64K 	chunk_size: 128M 	num_reg: 8  	lose cover RAM: 0G
+[    0.000000] New variable MTRRs
+[    0.000000] reg 0, base: 0GB, range: 2GB, type WB
+[    0.000000] reg 1, base: 2GB, range: 1GB, type WB
+[    0.000000] reg 2, base: 3GB, range: 512MB, type WB
+[    0.000000] reg 3, base: 3512MB, range: 8MB, type UC
+[    0.000000] reg 4, base: 3520MB, range: 64MB, type UC
+[    0.000000] reg 5, base: 4GB, range: 2GB, type WB
+[    0.000000] reg 6, base: 6GB, range: 512MB, type WB
+[    0.000000] reg 7, base: 6654MB, range: 2MB, type UC
+[    0.000000] e820: update [mem 0xdb800000-0xffffffff] usable ==> reserved
+[    0.000000] e820: last_pfn = 0xdacbc max_arch_pfn = 0x400000000
+[    0.000000] found SMP MP-table at [mem 0x000fd1b0-0x000fd1bf] mapped at [ffff8800000fd1b0]
+[    0.000000] Scanning 1 areas for low memory corruption
+[    0.000000] Base memory trampoline at [ffff880000097000] 97000 size 24576
+[    0.000000] reserving inaccessible SNB gfx pages
+[    0.000000] init_memory_mapping: [mem 0x00000000-0x000fffff]
+[    0.000000]  [mem 0x00000000-0x000fffff] page 4k
+[    0.000000] BRK [0x01fd3000, 0x01fd3fff] PGTABLE
+[    0.000000] BRK [0x01fd4000, 0x01fd4fff] PGTABLE
+[    0.000000] BRK [0x01fd5000, 0x01fd5fff] PGTABLE
+[    0.000000] init_memory_mapping: [mem 0x19fc00000-0x19fdfffff]
+[    0.000000]  [mem 0x19fc00000-0x19fdfffff] page 2M
+[    0.000000] BRK [0x01fd6000, 0x01fd6fff] PGTABLE
+[    0.000000] init_memory_mapping: [mem 0x19c000000-0x19fbfffff]
+[    0.000000]  [mem 0x19c000000-0x19fbfffff] page 2M
+[    0.000000] init_memory_mapping: [mem 0x180000000-0x19bffffff]
+[    0.000000]  [mem 0x180000000-0x19bffffff] page 2M
+[    0.000000] init_memory_mapping: [mem 0x00100000-0x1fffffff]
+[    0.000000]  [mem 0x00100000-0x001fffff] page 4k
+[    0.000000]  [mem 0x00200000-0x1fffffff] page 2M
+[    0.000000] init_memory_mapping: [mem 0x20200000-0x3fffffff]
+[    0.000000]  [mem 0x20200000-0x3fffffff] page 2M
+[    0.000000] init_memory_mapping: [mem 0x40200000-0xda4e9fff]
+[    0.000000]  [mem 0x40200000-0xda3fffff] page 2M
+[    0.000000]  [mem 0xda400000-0xda4e9fff] page 4k
+[    0.000000] BRK [0x01fd7000, 0x01fd7fff] PGTABLE
+[    0.000000] BRK [0x01fd8000, 0x01fd8fff] PGTABLE
+[    0.000000] init_memory_mapping: [mem 0xda52d000-0xda797fff]
+[    0.000000]  [mem 0xda52d000-0xda797fff] page 4k
+[    0.000000] init_memory_mapping: [mem 0xda967000-0xdacbbfff]
+[    0.000000]  [mem 0xda967000-0xda9fffff] page 4k
+[    0.000000]  [mem 0xdaa00000-0xdabfffff] page 2M
+[    0.000000]  [mem 0xdac00000-0xdacbbfff] page 4k
+[    0.000000] init_memory_mapping: [mem 0x100000000-0x17fffffff]
+[    0.000000]  [mem 0x100000000-0x17fffffff] page 2M
+[    0.000000] RAMDISK: [mem 0x35904000-0x36c79fff]
+[    0.000000] ACPI: Early table checksum verification disabled
+[    0.000000] ACPI: RSDP 0x00000000000F0410 000024 (v02 DELL  )
+[    0.000000] ACPI: XSDT 0x00000000DAFE8078 00006C (v01 DELL   WN09     01072009 AMI  00010013)
+[    0.000000] ACPI: FACP 0x00000000DAFF1BD8 0000F4 (v04 DELL   WN09     01072009 AMI  00010013)
+[    0.000000] ACPI: DSDT 0x00000000DAFE8170 009A65 (v02 DELL   WN09     00000000 INTL 20051117)
+[    0.000000] ACPI: FACS 0x00000000DAFE4F80 000040
+[    0.000000] ACPI: APIC 0x00000000DAFF1CD0 000072 (v03 DELL   WN09     01072009 AMI  00010013)
+[    0.000000] ACPI: MCFG 0x00000000DAFF1D48 00003C (v01 DELL   WN09     01072009 MSFT 00000097)
+[    0.000000] ACPI: SSDT 0x00000000DAFF1D88 0004B0 (v01 TrmRef PtidDevc 00001000 INTL 20091112)
+[    0.000000] ACPI: SLIC 0x00000000DAFF2238 000176 (v01 DELL   WN09     01072009 AMI  00010013)
+[    0.000000] ACPI: HPET 0x00000000DAFF23B0 000038 (v01 DELL   WN09     01072009 AMI. 00000004)
+[    0.000000] ACPI: SSDT 0x00000000DAFF23E8 000780 (v01 PmRef  Cpu0Ist  00003000 INTL 20051117)
+[    0.000000] ACPI: SSDT 0x00000000DAFF2B68 000996 (v01 PmRef  CpuPm    00003000 INTL 20051117)
+[    0.000000] ACPI: OSFR 0x00000000DAFF3500 00008C (v01 DELL   M08      07DC0317 ASL  00000061)
+[    0.000000] ACPI: Local APIC address 0xfee00000
+[    0.000000] No NUMA configuration found
+[    0.000000] Faking a node at [mem 0x0000000000000000-0x000000019fdfffff]
+[    0.000000] Initmem setup node 0 [mem 0x00000000-0x19fdfffff]
+[    0.000000]   NODE_DATA [mem 0x19fdf4000-0x19fdf8fff]
+[    0.000000]  [ffffea0000000000-ffffea00067fffff] PMD -> [ffff880199400000-ffff88019f3fffff] on node 0
+[    0.000000] Zone ranges:
+[    0.000000]   DMA      [mem 0x00001000-0x00ffffff]
+[    0.000000]   DMA32    [mem 0x01000000-0xffffffff]
+[    0.000000]   Normal   [mem 0x100000000-0x19fdfffff]
+[    0.000000] Movable zone start for each node
+[    0.000000] Early memory node ranges
+[    0.000000]   node   0: [mem 0x00001000-0x0009cfff]
+[    0.000000]   node   0: [mem 0x00100000-0x1fffffff]
+[    0.000000]   node   0: [mem 0x20200000-0x3fffffff]
+[    0.000000]   node   0: [mem 0x40200000-0xda4e9fff]
+[    0.000000]   node   0: [mem 0xda52d000-0xda797fff]
+[    0.000000]   node   0: [mem 0xda967000-0xdacbbfff]
+[    0.000000]   node   0: [mem 0x100000000-0x19fdfffff]
+[    0.000000] On node 0 totalpages: 1549382
+[    0.000000]   DMA zone: 64 pages used for memmap
+[    0.000000]   DMA zone: 156 pages reserved
+[    0.000000]   DMA zone: 3996 pages, LIFO batch:0
+[    0.000000]   DMA32 zone: 13915 pages used for memmap
+[    0.000000]   DMA32 zone: 890538 pages, LIFO batch:31
+[    0.000000]   Normal zone: 10232 pages used for memmap
+[    0.000000]   Normal zone: 654848 pages, LIFO batch:31
+[    0.000000] Reserving Intel graphics stolen memory at 0xdba00000-0xdf9fffff
+[    0.000000] ACPI: PM-Timer IO Port: 0x408
+[    0.000000] ACPI: Local APIC address 0xfee00000
+[    0.000000] ACPI: LAPIC (acpi_id[0x01] lapic_id[0x00] enabled)
+[    0.000000] ACPI: LAPIC (acpi_id[0x02] lapic_id[0x02] enabled)
+[    0.000000] ACPI: LAPIC (acpi_id[0x03] lapic_id[0x01] enabled)
+[    0.000000] ACPI: LAPIC (acpi_id[0x04] lapic_id[0x03] enabled)
+[    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] high edge lint[0x1])
+[    0.000000] ACPI: IOAPIC (id[0x02] address[0xfec00000] gsi_base[0])
+[    0.000000] IOAPIC[0]: apic_id 2, version 32, address 0xfec00000, GSI 0-23
+[    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+[    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+[    0.000000] ACPI: IRQ0 used by override.
+[    0.000000] ACPI: IRQ2 used by override.
+[    0.000000] ACPI: IRQ9 used by override.
+[    0.000000] Using ACPI (MADT) for SMP configuration information
+[    0.000000] ACPI: HPET id: 0x8086a701 base: 0xfed00000
+[    0.000000] smpboot: Allowing 4 CPUs, 0 hotplug CPUs
+[    0.000000] nr_irqs_gsi: 40
+[    0.000000] PM: Registered nosave memory: [mem 0x0009d000-0x0009dfff]
+[    0.000000] PM: Registered nosave memory: [mem 0x0009e000-0x0009ffff]
+[    0.000000] PM: Registered nosave memory: [mem 0x000a0000-0x000dffff]
+[    0.000000] PM: Registered nosave memory: [mem 0x000e0000-0x000fffff]
+[    0.000000] PM: Registered nosave memory: [mem 0x20000000-0x201fffff]
+[    0.000000] PM: Registered nosave memory: [mem 0x40000000-0x401fffff]
+[    0.000000] PM: Registered nosave memory: [mem 0xda4ea000-0xda52cfff]
+[    0.000000] PM: Registered nosave memory: [mem 0xda798000-0xda966fff]
+[    0.000000] PM: Registered nosave memory: [mem 0xdacbc000-0xdad67fff]
+[    0.000000] PM: Registered nosave memory: [mem 0xdad68000-0xdafe7fff]
+[    0.000000] PM: Registered nosave memory: [mem 0xdafe8000-0xdaffffff]
+[    0.000000] PM: Registered nosave memory: [mem 0xdb000000-0xdb7fffff]
+[    0.000000] PM: Registered nosave memory: [mem 0xdb800000-0xdf9fffff]
+[    0.000000] PM: Registered nosave memory: [mem 0xdfa00000-0xf7ffffff]
+[    0.000000] PM: Registered nosave memory: [mem 0xf8000000-0xfbffffff]
+[    0.000000] PM: Registered nosave memory: [mem 0xfc000000-0xfebfffff]
+[    0.000000] PM: Registered nosave memory: [mem 0xfec00000-0xfec00fff]
+[    0.000000] PM: Registered nosave memory: [mem 0xfec01000-0xfecfffff]
+[    0.000000] PM: Registered nosave memory: [mem 0xfed00000-0xfed03fff]
+[    0.000000] PM: Registered nosave memory: [mem 0xfed04000-0xfed1bfff]
+[    0.000000] PM: Registered nosave memory: [mem 0xfed1c000-0xfed1ffff]
+[    0.000000] PM: Registered nosave memory: [mem 0xfed20000-0xfedfffff]
+[    0.000000] PM: Registered nosave memory: [mem 0xfee00000-0xfee00fff]
+[    0.000000] PM: Registered nosave memory: [mem 0xfee01000-0xfeffffff]
+[    0.000000] PM: Registered nosave memory: [mem 0xff000000-0xffffffff]
+[    0.000000] e820: [mem 0xdfa00000-0xf7ffffff] available for PCI devices
+[    0.000000] Booting paravirtualized kernel on bare hardware
+[    0.000000] setup_percpu: NR_CPUS:256 nr_cpumask_bits:256 nr_cpu_ids:4 nr_node_ids:1
+[    0.000000] PERCPU: Embedded 29 pages/cpu @ffff88019fa00000 s87360 r8192 d23232 u524288
+[    0.000000] pcpu-alloc: s87360 r8192 d23232 u524288 alloc=1*2097152
+[    0.000000] pcpu-alloc: [0] 0 1 2 3 
+[    0.000000] Built 1 zonelists in Node order, mobility grouping on.  Total pages: 1525015
+[    0.000000] Policy zone: Normal
+[    0.000000] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-3.16.0-23-generic root=UUID=c10799ec-5161-4d4d-b20d-2f686af3f477 ro quiet splash vt.handoff=7
+[    0.000000] PID hash table entries: 4096 (order: 3, 32768 bytes)
+[    0.000000] xsave: enabled xstate_bv 0x7, cntxt size 0x340
+[    0.000000] AGP: Checking aperture...
+[    0.000000] AGP: No AGP bridge found
+[    0.000000] Calgary: detecting Calgary via BIOS EBDA area
+[    0.000000] Calgary: Unable to locate Rio Grande table in EBDA - bailing!
+[    0.000000] Memory: 5995628K/6197528K available (7731K kernel code, 1200K rwdata, 3608K rodata, 1360K init, 1308K bss, 201900K reserved)
+[    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=4, Nodes=1
+[    0.000000] Hierarchical RCU implementation.
+[    0.000000] 	RCU dyntick-idle grace-period acceleration is enabled.
+[    0.000000] 	RCU restricting CPUs from NR_CPUS=256 to nr_cpu_ids=4.
+[    0.000000] 	Offload RCU callbacks from all CPUs
+[    0.000000] 	Offload RCU callbacks from CPUs: 0-3.
+[    0.000000] RCU: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=4
+[    0.000000] NR_IRQS:16640 nr_irqs:712 16
+[    0.000000] vt handoff: transparent VT on vt#7
+[    0.000000] Console: colour dummy device 80x25
+[    0.000000] console [tty0] enabled
+[    0.000000] allocated 25165824 bytes of page_cgroup
+[    0.000000] please try 'cgroup_disable=memory' option if you don't want memory cgroups
+[    0.000000] hpet clockevent registered
+[    0.000000] tsc: Fast TSC calibration using PIT
+[    0.000000] tsc: Detected 2394.758 MHz processor
+[    0.000035] Calibrating delay loop (skipped), value calculated using timer frequency.. 4789.51 BogoMIPS (lpj=9579032)
+[    0.000038] pid_max: default: 32768 minimum: 301
+[    0.000044] ACPI: Core revision 20140424
+[    0.007030] ACPI: All ACPI Tables successfully acquired
+[    0.012080] Security Framework initialized
+[    0.012095] AppArmor: AppArmor initialized
+[    0.012096] Yama: becoming mindful.
+[    0.012660] Dentry cache hash table entries: 1048576 (order: 11, 8388608 bytes)
+[    0.014301] Inode-cache hash table entries: 524288 (order: 10, 4194304 bytes)
+[    0.015010] Mount-cache hash table entries: 16384 (order: 5, 131072 bytes)
+[    0.015020] Mountpoint-cache hash table entries: 16384 (order: 5, 131072 bytes)
+[    0.015234] Initializing cgroup subsys memory
+[    0.015256] Initializing cgroup subsys devices
+[    0.015262] Initializing cgroup subsys freezer
+[    0.015265] Initializing cgroup subsys net_cls
+[    0.015269] Initializing cgroup subsys blkio
+[    0.015272] Initializing cgroup subsys perf_event
+[    0.015274] Initializing cgroup subsys net_prio
+[    0.015280] Initializing cgroup subsys hugetlb
+[    0.015301] CPU: Physical Processor ID: 0
+[    0.015302] CPU: Processor Core ID: 0
+[    0.015306] ENERGY_PERF_BIAS: Set to 'normal', was 'performance'
+ENERGY_PERF_BIAS: View and update with x86_energy_perf_policy(8)
+[    0.015309] mce: CPU supports 7 MCE banks
+[    0.015320] CPU0: Thermal monitoring enabled (TM1)
+[    0.015329] Last level iTLB entries: 4KB 512, 2MB 8, 4MB 8
+Last level dTLB entries: 4KB 512, 2MB 32, 4MB 32, 1GB 0
+tlb_flushall_shift: 6
+[    0.015453] Freeing SMP alternatives memory: 32K (ffffffff81e82000 - ffffffff81e8a000)
+[    0.016824] ftrace: allocating 29288 entries in 115 pages
+[    0.031745] ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+[    0.071467] smpboot: CPU0: Intel(R) Core(TM) i3-2370M CPU @ 2.40GHz (fam: 06, model: 2a, stepping: 07)
+[    0.071475] TSC deadline timer enabled
+[    0.071502] Performance Events: PEBS fmt1+, 16-deep LBR, SandyBridge events, full-width counters, Intel PMU driver.
+[    0.071521] perf_event_intel: PEBS disabled due to CPU errata, please upgrade microcode
+[    0.071523] ... version:                3
+[    0.071524] ... bit width:              48
+[    0.071525] ... generic registers:      4
+[    0.071526] ... value mask:             0000ffffffffffff
+[    0.071527] ... max period:             0000ffffffffffff
+[    0.071528] ... fixed-purpose events:   3
+[    0.071529] ... event mask:             000000070000000f
+[    0.073218] x86: Booting SMP configuration:
+[    0.073220] .... node  #0, CPUs:      #1
+[    0.086319] NMI watchdog: enabled on all CPUs, permanently consumes one hw-PMU counter.
+[    0.086403]  #2 #3
+[    0.112719] x86: Booted up 1 node, 4 CPUs
+[    0.112723] smpboot: Total of 4 processors activated (19158.06 BogoMIPS)
+[    0.116083] devtmpfs: initialized
+[    0.118559] evm: security.selinux
+[    0.118560] evm: security.SMACK64
+[    0.118561] evm: security.SMACK64EXEC
+[    0.118562] evm: security.SMACK64TRANSMUTE
+[    0.118563] evm: security.SMACK64MMAP
+[    0.118564] evm: security.ima
+[    0.118565] evm: security.capability
+[    0.118622] PM: Registering ACPI NVS region [mem 0xda4ea000-0xda52cfff] (274432 bytes)
+[    0.118628] PM: Registering ACPI NVS region [mem 0xdad68000-0xdafe7fff] (2621440 bytes)
+[    0.119524] pinctrl core: initialized pinctrl subsystem
+[    0.119596] regulator-dummy: no parameters
+[    0.119631] RTC time: 14:37:54, date: 01/23/15
+[    0.119682] NET: Registered protocol family 16
+[    0.119833] cpuidle: using governor ladder
+[    0.119837] cpuidle: using governor menu
+[    0.119888] ACPI: bus type PCI registered
+[    0.119890] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+[    0.119962] PCI: MMCONFIG for domain 0000 [bus 00-3f] at [mem 0xf8000000-0xfbffffff] (base 0xf8000000)
+[    0.119965] PCI: MMCONFIG at [mem 0xf8000000-0xfbffffff] reserved in E820
+[    0.120053] PCI: Using configuration type 1 for base access
+[    0.125232] ACPI: Added _OSI(Module Device)
+[    0.125235] ACPI: Added _OSI(Processor Device)
+[    0.125236] ACPI: Added _OSI(3.0 _SCP Extensions)
+[    0.125237] ACPI: Added _OSI(Processor Aggregator Device)
+[    0.127698] ACPI: Executed 1 blocks of module-level executable AML code
+[    0.131632] [Firmware Bug]: ACPI: BIOS _OSI(Linux) query ignored
+[    0.138980] ACPI: Dynamic OEM Table Load:
+[    0.138987] ACPI: SSDT 0xFFFF880196528000 00064F (v01 PmRef  Cpu0Cst  00003001 INTL 20051117)
+[    0.142813] ACPI: Dynamic OEM Table Load:
+[    0.142818] ACPI: SSDT 0xFFFF880196B29000 000303 (v01 PmRef  ApIst    00003000 INTL 20051117)
+[    0.146697] ACPI: Dynamic OEM Table Load:
+[    0.146701] ACPI: SSDT 0xFFFF880196522000 000119 (v01 PmRef  ApCst    00003000 INTL 20051117)
+[    0.151086] ACPI: Interpreter enabled
+[    0.151095] ACPI Exception: AE_NOT_FOUND, While evaluating Sleep State [\_S2_] (20140424/hwxface-580)
+[    0.151110] ACPI: (supports S0 S1 S3 S4 S5)
+[    0.151111] ACPI: Using IOAPIC for interrupt routing
+[    0.151136] PCI: Using host bridge windows from ACPI; if necessary, use "pci=nocrs" and report a bug
+[    0.172830] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-3e])
+[    0.172836] acpi PNP0A08:00: _OSC: OS supports [ExtendedConfig ASPM ClockPM Segments MSI]
+[    0.172955] acpi PNP0A08:00: _OSC: platform does not support [PME]
+[    0.173063] acpi PNP0A08:00: _OSC: OS now controls [PCIeHotplug AER PCIeCapability]
+[    0.173618] PCI host bridge to bus 0000:00
+[    0.173621] pci_bus 0000:00: root bus resource [bus 00-3e]
+[    0.173623] pci_bus 0000:00: root bus resource [io  0x0000-0x0cf7]
+[    0.173625] pci_bus 0000:00: root bus resource [io  0x0d00-0xffff]
+[    0.173627] pci_bus 0000:00: root bus resource [mem 0x000a0000-0x000bffff]
+[    0.173629] pci_bus 0000:00: root bus resource [mem 0x000d4000-0x000d7fff]
+[    0.173630] pci_bus 0000:00: root bus resource [mem 0x000d8000-0x000dbfff]
+[    0.173632] pci_bus 0000:00: root bus resource [mem 0x000dc000-0x000dffff]
+[    0.173634] pci_bus 0000:00: root bus resource [mem 0x000e0000-0x000e3fff]
+[    0.173636] pci_bus 0000:00: root bus resource [mem 0x000e4000-0x000e7fff]
+[    0.173637] pci_bus 0000:00: root bus resource [mem 0xdfa00000-0xfeafffff]
+[    0.173639] pci_bus 0000:00: root bus resource [mem 0xfed40000-0xfed44fff]
+[    0.173647] pci 0000:00:00.0: [8086:0104] type 00 class 0x060000
+[    0.173735] pci 0000:00:02.0: [8086:0116] type 00 class 0x030000
+[    0.173747] pci 0000:00:02.0: reg 0x10: [mem 0xf6800000-0xf6bfffff 64bit]
+[    0.173753] pci 0000:00:02.0: reg 0x18: [mem 0xe0000000-0xefffffff 64bit pref]
+[    0.173757] pci 0000:00:02.0: reg 0x20: [io  0xf000-0xf03f]
+[    0.173871] pci 0000:00:16.0: [8086:1c3a] type 00 class 0x078000
+[    0.173896] pci 0000:00:16.0: reg 0x10: [mem 0xf7e0a000-0xf7e0a00f 64bit]
+[    0.173974] pci 0000:00:16.0: PME# supported from D0 D3hot D3cold
+[    0.174064] pci 0000:00:1a.0: [8086:1c2d] type 00 class 0x0c0320
+[    0.174086] pci 0000:00:1a.0: reg 0x10: [mem 0xf7e08000-0xf7e083ff]
+[    0.174178] pci 0000:00:1a.0: PME# supported from D0 D3hot D3cold
+[    0.177107] pci 0000:00:1a.0: System wakeup disabled by ACPI
+[    0.177153] pci 0000:00:1b.0: [8086:1c20] type 00 class 0x040300
+[    0.177171] pci 0000:00:1b.0: reg 0x10: [mem 0xf7e00000-0xf7e03fff 64bit]
+[    0.177247] pci 0000:00:1b.0: PME# supported from D0 D3hot D3cold
+[    0.177293] pci 0000:00:1b.0: System wakeup disabled by ACPI
+[    0.177333] pci 0000:00:1c.0: [8086:1c10] type 01 class 0x060400
+[    0.177419] pci 0000:00:1c.0: PME# supported from D0 D3hot D3cold
+[    0.177465] pci 0000:00:1c.0: System wakeup disabled by ACPI
+[    0.177504] pci 0000:00:1c.1: [8086:1c12] type 01 class 0x060400
+[    0.177587] pci 0000:00:1c.1: PME# supported from D0 D3hot D3cold
+[    0.177632] pci 0000:00:1c.1: System wakeup disabled by ACPI
+[    0.177672] pci 0000:00:1c.3: [8086:1c16] type 01 class 0x060400
+[    0.177755] pci 0000:00:1c.3: PME# supported from D0 D3hot D3cold
+[    0.177801] pci 0000:00:1c.3: System wakeup disabled by ACPI
+[    0.177853] pci 0000:00:1c.7: [8086:1c1e] type 01 class 0x060400
+[    0.177993] pci 0000:00:1c.7: PME# supported from D0 D3hot D3cold
+[    0.178048] pci 0000:00:1c.7: System wakeup disabled by ACPI
+[    0.178093] pci 0000:00:1d.0: [8086:1c26] type 00 class 0x0c0320
+[    0.178115] pci 0000:00:1d.0: reg 0x10: [mem 0xf7e07000-0xf7e073ff]
+[    0.178206] pci 0000:00:1d.0: PME# supported from D0 D3hot D3cold
+[    0.181152] pci 0000:00:1d.0: System wakeup disabled by ACPI
+[    0.181197] pci 0000:00:1f.0: [8086:1c4b] type 00 class 0x060100
+[    0.181377] pci 0000:00:1f.2: [8086:1c03] type 00 class 0x010601
+[    0.181397] pci 0000:00:1f.2: reg 0x10: [io  0xf0b0-0xf0b7]
+[    0.181406] pci 0000:00:1f.2: reg 0x14: [io  0xf0a0-0xf0a3]
+[    0.181414] pci 0000:00:1f.2: reg 0x18: [io  0xf090-0xf097]
+[    0.181422] pci 0000:00:1f.2: reg 0x1c: [io  0xf080-0xf083]
+[    0.181430] pci 0000:00:1f.2: reg 0x20: [io  0xf060-0xf07f]
+[    0.181439] pci 0000:00:1f.2: reg 0x24: [mem 0xf7e06000-0xf7e067ff]
+[    0.181485] pci 0000:00:1f.2: PME# supported from D3hot
+[    0.181560] pci 0000:00:1f.3: [8086:1c22] type 00 class 0x0c0500
+[    0.181576] pci 0000:00:1f.3: reg 0x10: [mem 0xf7e05000-0xf7e050ff 64bit]
+[    0.181598] pci 0000:00:1f.3: reg 0x20: [io  0xf040-0xf05f]
+[    0.181741] pci 0000:00:1c.0: PCI bridge to [bus 03-04]
+[    0.181837] pci 0000:05:00.0: [10ec:8136] type 00 class 0x020000
+[    0.181865] pci 0000:05:00.0: reg 0x10: [io  0xe000-0xe0ff]
+[    0.181901] pci 0000:05:00.0: reg 0x18: [mem 0xf1104000-0xf1104fff 64bit pref]
+[    0.181923] pci 0000:05:00.0: reg 0x20: [mem 0xf1100000-0xf1103fff 64bit pref]
+[    0.182037] pci 0000:05:00.0: supports D1 D2
+[    0.182039] pci 0000:05:00.0: PME# supported from D0 D1 D2 D3hot D3cold
+[    0.182078] pci 0000:05:00.0: System wakeup disabled by ACPI
+[    0.189907] pci 0000:00:1c.1: PCI bridge to [bus 05-06]
+[    0.189918] pci 0000:00:1c.1:   bridge window [io  0xe000-0xefff]
+[    0.189937] pci 0000:00:1c.1:   bridge window [mem 0xf1100000-0xf11fffff 64bit pref]
+[    0.190065] pci 0000:09:00.0: [168c:002b] type 00 class 0x028000
+[    0.190096] pci 0000:09:00.0: reg 0x10: [mem 0xf7d00000-0xf7d0ffff 64bit]
+[    0.190249] pci 0000:09:00.0: supports D1
+[    0.190250] pci 0000:09:00.0: PME# supported from D0 D1 D3hot
+[    0.190285] pci 0000:09:00.0: System wakeup disabled by ACPI
+[    0.197914] pci 0000:00:1c.3: PCI bridge to [bus 09-0a]
+[    0.197930] pci 0000:00:1c.3:   bridge window [mem 0xf7d00000-0xf7dfffff]
+[    0.198052] pci 0000:00:1c.7: PCI bridge to [bus 11-1f]
+[    0.198058] pci 0000:00:1c.7:   bridge window [io  0xc000-0xdfff]
+[    0.198063] pci 0000:00:1c.7:   bridge window [mem 0xf6c00000-0xf7cfffff]
+[    0.198072] pci 0000:00:1c.7:   bridge window [mem 0xf0000000-0xf10fffff 64bit pref]
+[    0.198445] ACPI: PCI Interrupt Link [LNKA] (IRQs 3 4 5 6 10 *11 12 14 15)
+[    0.198495] ACPI: PCI Interrupt Link [LNKB] (IRQs 3 4 *5 6 10 11 12 14 15)
+[    0.198542] ACPI: PCI Interrupt Link [LNKC] (IRQs *3 4 5 6 10 11 12 14 15)
+[    0.198588] ACPI: PCI Interrupt Link [LNKD] (IRQs 3 4 5 6 *10 11 12 14 15)
+[    0.198633] ACPI: PCI Interrupt Link [LNKE] (IRQs 3 4 5 6 10 11 12 14 15) *0, disabled.
+[    0.198679] ACPI: PCI Interrupt Link [LNKF] (IRQs 3 4 5 6 10 11 12 14 15) *0, disabled.
+[    0.198729] ACPI: PCI Interrupt Link [LNKG] (IRQs 3 4 *5 6 10 11 12 14 15)
+[    0.198776] ACPI: PCI Interrupt Link [LNKH] (IRQs 3 4 *5 6 10 11 12 14 15)
+[    0.198971] ACPI: Enabled 4 GPEs in block 00 to 3F
+[    0.199082] vgaarb: device added: PCI:0000:00:02.0,decodes=io+mem,owns=io+mem,locks=none
+[    0.199085] vgaarb: loaded
+[    0.199086] vgaarb: bridge control possible 0000:00:02.0
+[    0.199307] SCSI subsystem initialized
+[    0.199354] libata version 3.00 loaded.
+[    0.199381] ACPI: bus type USB registered
+[    0.199399] usbcore: registered new interface driver usbfs
+[    0.199407] usbcore: registered new interface driver hub
+[    0.199428] usbcore: registered new device driver usb
+[    0.199560] PCI: Using ACPI for IRQ routing
+[    0.201556] PCI: pci_cache_line_size set to 64 bytes
+[    0.201603] e820: reserve RAM buffer [mem 0x0009d400-0x0009ffff]
+[    0.201605] e820: reserve RAM buffer [mem 0xda4ea000-0xdbffffff]
+[    0.201607] e820: reserve RAM buffer [mem 0xda798000-0xdbffffff]
+[    0.201609] e820: reserve RAM buffer [mem 0xdacbc000-0xdbffffff]
+[    0.201610] e820: reserve RAM buffer [mem 0x19fe00000-0x19fffffff]
+[    0.201721] NetLabel: Initializing
+[    0.201722] NetLabel:  domain hash size = 128
+[    0.201723] NetLabel:  protocols = UNLABELED CIPSOv4
+[    0.201735] NetLabel:  unlabeled traffic allowed by default
+[    0.201800] hpet0: at MMIO 0xfed00000, IRQs 2, 8, 0, 0, 0, 0, 0, 0
+[    0.201805] hpet0: 8 comparators, 64-bit 14.318180 MHz counter
+[    0.204847] Switched to clocksource hpet
+[    0.210271] AppArmor: AppArmor Filesystem Enabled
+[    0.210308] pnp: PnP ACPI init
+[    0.210324] ACPI: bus type PNP registered
+[    0.210440] system 00:00: [io  0x0680-0x069f] has been reserved
+[    0.210443] system 00:00: [io  0x1000-0x100f] has been reserved
+[    0.210445] system 00:00: [io  0xffff] has been reserved
+[    0.210447] system 00:00: [io  0xffff] has been reserved
+[    0.210449] system 00:00: [io  0x0400-0x0453] could not be reserved
+[    0.210451] system 00:00: [io  0x0458-0x047f] has been reserved
+[    0.210453] system 00:00: [io  0x0500-0x057f] has been reserved
+[    0.210455] system 00:00: [io  0x164e-0x164f] has been reserved
+[    0.210459] system 00:00: Plug and Play ACPI device, IDs PNP0c02 (active)
+[    0.210493] pnp 00:01: Plug and Play ACPI device, IDs PNP0b00 (active)
+[    0.210542] system 00:02: [io  0x0454-0x0457] has been reserved
+[    0.210545] system 00:02: Plug and Play ACPI device, IDs INT3f0d PNP0c02 (active)
+[    0.210589] system 00:03: [io  0x04d0-0x04d1] has been reserved
+[    0.210592] system 00:03: [mem 0xfe800000-0xfe802fff] has been reserved
+[    0.210594] system 00:03: Plug and Play ACPI device, IDs PNP0c02 (active)
+[    0.210628] pnp 00:04: Plug and Play ACPI device, IDs DLL0504 SYN0600 SYN0002 PNP0f13 (active)
+[    0.210659] pnp 00:05: Plug and Play ACPI device, IDs PNP0303 (active)
+[    0.210855] system 00:06: [mem 0xfed1c000-0xfed1ffff] has been reserved
+[    0.210857] system 00:06: [mem 0xfed10000-0xfed17fff] has been reserved
+[    0.210859] system 00:06: [mem 0xfed18000-0xfed18fff] has been reserved
+[    0.210861] system 00:06: [mem 0xfed19000-0xfed19fff] has been reserved
+[    0.210863] system 00:06: [mem 0xf8000000-0xfbffffff] has been reserved
+[    0.210865] system 00:06: [mem 0xfed20000-0xfed3ffff] has been reserved
+[    0.210867] system 00:06: [mem 0xfed90000-0xfed93fff] has been reserved
+[    0.210869] system 00:06: [mem 0xfed45000-0xfed8ffff] has been reserved
+[    0.210871] system 00:06: [mem 0xff000000-0xffffffff] has been reserved
+[    0.210875] system 00:06: [mem 0xfee00000-0xfeefffff] could not be reserved
+[    0.210877] system 00:06: [mem 0xdfa00000-0xdfa00fff] has been reserved
+[    0.210880] system 00:06: Plug and Play ACPI device, IDs PNP0c02 (active)
+[    0.211018] system 00:07: [mem 0x20000000-0x201fffff] has been reserved
+[    0.211021] system 00:07: [mem 0x40000000-0x401fffff] has been reserved
+[    0.211023] system 00:07: Plug and Play ACPI device, IDs PNP0c01 (active)
+[    0.211062] pnp: PnP ACPI: found 8 devices
+[    0.211064] ACPI: bus type PNP unregistered
+[    0.217526] pci 0000:00:1c.0: PCI bridge to [bus 03-04]
+[    0.217539] pci 0000:00:1c.1: PCI bridge to [bus 05-06]
+[    0.217543] pci 0000:00:1c.1:   bridge window [io  0xe000-0xefff]
+[    0.217551] pci 0000:00:1c.1:   bridge window [mem 0xf1100000-0xf11fffff 64bit pref]
+[    0.217557] pci 0000:00:1c.3: PCI bridge to [bus 09-0a]
+[    0.217563] pci 0000:00:1c.3:   bridge window [mem 0xf7d00000-0xf7dfffff]
+[    0.217571] pci 0000:00:1c.7: PCI bridge to [bus 11-1f]
+[    0.217575] pci 0000:00:1c.7:   bridge window [io  0xc000-0xdfff]
+[    0.217582] pci 0000:00:1c.7:   bridge window [mem 0xf6c00000-0xf7cfffff]
+[    0.217588] pci 0000:00:1c.7:   bridge window [mem 0xf0000000-0xf10fffff 64bit pref]
+[    0.217597] pci_bus 0000:00: resource 4 [io  0x0000-0x0cf7]
+[    0.217599] pci_bus 0000:00: resource 5 [io  0x0d00-0xffff]
+[    0.217601] pci_bus 0000:00: resource 6 [mem 0x000a0000-0x000bffff]
+[    0.217603] pci_bus 0000:00: resource 7 [mem 0x000d4000-0x000d7fff]
+[    0.217604] pci_bus 0000:00: resource 8 [mem 0x000d8000-0x000dbfff]
+[    0.217606] pci_bus 0000:00: resource 9 [mem 0x000dc000-0x000dffff]
+[    0.217608] pci_bus 0000:00: resource 10 [mem 0x000e0000-0x000e3fff]
+[    0.217610] pci_bus 0000:00: resource 11 [mem 0x000e4000-0x000e7fff]
+[    0.217611] pci_bus 0000:00: resource 12 [mem 0xdfa00000-0xfeafffff]
+[    0.217613] pci_bus 0000:00: resource 13 [mem 0xfed40000-0xfed44fff]
+[    0.217615] pci_bus 0000:05: resource 0 [io  0xe000-0xefff]
+[    0.217617] pci_bus 0000:05: resource 2 [mem 0xf1100000-0xf11fffff 64bit pref]
+[    0.217619] pci_bus 0000:09: resource 1 [mem 0xf7d00000-0xf7dfffff]
+[    0.217621] pci_bus 0000:11: resource 0 [io  0xc000-0xdfff]
+[    0.217623] pci_bus 0000:11: resource 1 [mem 0xf6c00000-0xf7cfffff]
+[    0.217624] pci_bus 0000:11: resource 2 [mem 0xf0000000-0xf10fffff 64bit pref]
+[    0.217651] NET: Registered protocol family 2
+[    0.217838] TCP established hash table entries: 65536 (order: 7, 524288 bytes)
+[    0.217990] TCP bind hash table entries: 65536 (order: 8, 1048576 bytes)
+[    0.218119] TCP: Hash tables configured (established 65536 bind 65536)
+[    0.218140] TCP: reno registered
+[    0.218151] UDP hash table entries: 4096 (order: 5, 131072 bytes)
+[    0.218181] UDP-Lite hash table entries: 4096 (order: 5, 131072 bytes)
+[    0.218246] NET: Registered protocol family 1
+[    0.218260] pci 0000:00:02.0: Boot video device
+[    0.457242] PCI: CLS 64 bytes, default 64
+[    0.457307] Trying to unpack rootfs image as initramfs...
+[    0.774025] Freeing initrd memory: 19928K (ffff880035904000 - ffff880036c7a000)
+[    0.774050] PCI-DMA: Using software bounce buffering for IO (SWIOTLB)
+[    0.774052] software IO TLB [mem 0xd64ea000-0xda4ea000] (64MB) mapped at [ffff8800d64ea000-ffff8800da4e9fff]
+[    0.774254] RAPL PMU detected, hw unit 2^-16 Joules, API unit is 2^-32 Joules, 3 fixed counters 163840 ms ovfl timer
+[    0.774302] microcode: CPU0 sig=0x206a7, pf=0x10, revision=0x1b
+[    0.774311] microcode: CPU1 sig=0x206a7, pf=0x10, revision=0x1b
+[    0.774316] microcode: CPU2 sig=0x206a7, pf=0x10, revision=0x1b
+[    0.774322] microcode: CPU3 sig=0x206a7, pf=0x10, revision=0x1b
+[    0.774378] microcode: Microcode Update Driver: v2.00 <tigran@aivazian.fsnet.co.uk>, Peter Oruba
+[    0.774402] Scanning for low memory corruption every 60 seconds
+[    0.774691] futex hash table entries: 1024 (order: 4, 65536 bytes)
+[    0.774708] Initialise system trusted keyring
+[    0.774729] audit: initializing netlink subsys (disabled)
+[    0.774741] audit: type=2000 audit(1422023874.764:1): initialized
+[    0.775053] HugeTLB registered 2 MB page size, pre-allocated 0 pages
+[    0.776509] zpool: loaded
+[    0.776512] zbud: loaded
+[    0.776677] VFS: Disk quotas dquot_6.5.2
+[    0.776711] Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+[    0.777155] fuse init (API version 7.23)
+[    0.777237] msgmni has been set to 11749
+[    0.777293] Key type big_key registered
+[    0.777692] Key type asymmetric registered
+[    0.777696] Asymmetric key parser 'x509' registered
+[    0.777734] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 252)
+[    0.777784] io scheduler noop registered
+[    0.777787] io scheduler deadline registered (default)
+[    0.777835] io scheduler cfq registered
+[    0.778347] pcieport 0000:00:1c.7: irq 40 for MSI/MSI-X
+[    0.778460] pci_hotplug: PCI Hot Plug PCI Core version: 0.5
+[    0.778498] pciehp 0000:00:1c.7:pcie04: Slot #7 AttnBtn- AttnInd- PwrInd- PwrCtrl- MRL- Interlock- NoCompl+ LLActRep+
+[    0.778547] pciehp 0000:00:1c.7:pcie04: service driver pciehp loaded
+[    0.778552] pciehp: PCI Express Hot Plug Controller Driver version: 0.4
+[    0.778596] vesafb: mode is 1024x768x32, linelength=4096, pages=0
+[    0.778597] vesafb: scrolling: redraw
+[    0.778599] vesafb: Truecolor: size=8:8:8:8, shift=24:16:8:0
+[    0.778614] vesafb: framebuffer at 0xe0000000, mapped to 0xffffc90004e80000, using 3072k, total 3072k
+[    0.778689] Console: switching to colour frame buffer device 128x48
+[    0.778702] fb0: VESA VGA frame buffer device
+[    0.778724] intel_idle: MWAIT substates: 0x21120
+[    0.778726] intel_idle: v0.4 model 0x2A
+[    0.778727] intel_idle: lapic_timer_reliable_states 0xffffffff
+[    0.778975] ACPI: AC Adapter [AC] (off-line)
+[    0.779069] input: Lid Switch as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0D:00/input/input0
+[    0.780623] ACPI: Lid Switch [LID0]
+[    0.780661] input: Power Button as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0C:00/input/input1
+[    0.780664] ACPI: Power Button [PWRB]
+[    0.780698] input: Sleep Button as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0C0E:00/input/input2
+[    0.780700] ACPI: Sleep Button [SBTN]
+[    0.780734] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input3
+[    0.780736] ACPI: Power Button [PWRF]
+[    0.793174] thermal LNXTHERM:00: registered as thermal_zone0
+[    0.793177] ACPI: Thermal Zone [THM] (53 C)
+[    0.793208] GHES: HEST is not enabled!
+[    0.793327] Serial: 8250/16550 driver, 32 ports, IRQ sharing enabled
+[    0.805561] Linux agpgart interface v0.103
+[    0.807259] brd: module loaded
+[    0.807853] loop: module loaded
+[    0.808052] libphy: Fixed MDIO Bus: probed
+[    0.808056] tun: Universal TUN/TAP device driver, 1.6
+[    0.808057] tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
+[    0.808105] PPP generic driver version 2.4.2
+[    0.808145] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+[    0.808150] ehci-pci: EHCI PCI platform driver
+[    0.808263] ehci-pci 0000:00:1a.0: EHCI Host Controller
+[    0.808270] ehci-pci 0000:00:1a.0: new USB bus registered, assigned bus number 1
+[    0.808284] ehci-pci 0000:00:1a.0: debug port 2
+[    0.812190] ehci-pci 0000:00:1a.0: cache line size of 64 is not supported
+[    0.812211] ehci-pci 0000:00:1a.0: irq 16, io mem 0xf7e08000
+[    0.821381] ehci-pci 0000:00:1a.0: USB 2.0 started, EHCI 1.00
+[    0.821423] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002
+[    0.821425] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    0.821427] usb usb1: Product: EHCI Host Controller
+[    0.821429] usb usb1: Manufacturer: Linux 3.16.0-23-generic ehci_hcd
+[    0.821431] usb usb1: SerialNumber: 0000:00:1a.0
+[    0.822185] hub 1-0:1.0: USB hub found
+[    0.822193] hub 1-0:1.0: 2 ports detected
+[    0.822470] ehci-pci 0000:00:1d.0: EHCI Host Controller
+[    0.822477] ehci-pci 0000:00:1d.0: new USB bus registered, assigned bus number 2
+[    0.822489] ehci-pci 0000:00:1d.0: debug port 2
+[    0.826392] ehci-pci 0000:00:1d.0: cache line size of 64 is not supported
+[    0.826406] ehci-pci 0000:00:1d.0: irq 23, io mem 0xf7e07000
+[    0.829866] ACPI: Battery Slot [BAT0] (battery present)
+[    0.837502] ehci-pci 0000:00:1d.0: USB 2.0 started, EHCI 1.00
+[    0.837601] usb usb2: New USB device found, idVendor=1d6b, idProduct=0002
+[    0.837604] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    0.837606] usb usb2: Product: EHCI Host Controller
+[    0.837608] usb usb2: Manufacturer: Linux 3.16.0-23-generic ehci_hcd
+[    0.837610] usb usb2: SerialNumber: 0000:00:1d.0
+[    0.837828] hub 2-0:1.0: USB hub found
+[    0.837838] hub 2-0:1.0: 2 ports detected
+[    0.837958] ehci-platform: EHCI generic platform driver
+[    0.837974] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+[    0.837980] ohci-pci: OHCI PCI platform driver
+[    0.837993] ohci-platform: OHCI generic platform driver
+[    0.838002] uhci_hcd: USB Universal Host Controller Interface driver
+[    0.838071] i8042: PNP: PS/2 Controller [PNP0303:KBC,PNP0f13:PS2] at 0x60,0x64 irq 1,12
+[    0.840780] serio: i8042 KBD port at 0x60,0x64 irq 1
+[    0.840785] serio: i8042 AUX port at 0x60,0x64 irq 12
+[    0.841075] mousedev: PS/2 mouse device common for all mice
+[    0.841441] rtc_cmos 00:01: RTC can wake from S4
+[    0.841632] rtc_cmos 00:01: rtc core: registered rtc_cmos as rtc0
+[    0.841662] rtc_cmos 00:01: alarms up to one month, y3k, 242 bytes nvram, hpet irqs
+[    0.841732] device-mapper: uevent: version 1.0.3
+[    0.841799] device-mapper: ioctl: 4.27.0-ioctl (2013-10-30) initialised: dm-devel@redhat.com
+[    0.841820] Intel P-state driver initializing.
+[    0.841832] Intel pstate controlling: cpu 0
+[    0.841876] Intel pstate controlling: cpu 1
+[    0.841923] Intel pstate controlling: cpu 2
+[    0.841972] Intel pstate controlling: cpu 3
+[    0.842043] Consider also installing thermald for improved thermal control.
+[    0.842062] ledtrig-cpu: registered to indicate activity on CPUs
+[    0.842345] TCP: cubic registered
+[    0.842665] NET: Registered protocol family 10
+[    0.843242] NET: Registered protocol family 17
+[    0.843273] Key type dns_resolver registered
+[    0.844296] Loading compiled-in X.509 certificates
+[    0.847252] Loaded X.509 cert 'Magrathea: Glacier signing key: d120c47c14beb62ead6703d41712cc110575d297'
+[    0.847299] registered taskstats version 1
+[    0.849929] Key type trusted registered
+[    0.851525] Key type encrypted registered
+[    0.853096] AppArmor: AppArmor sha1 policy hashing enabled
+[    0.853101] ima: No TPM chip found, activating TPM-bypass!
+[    0.853119] evm: HMAC attrs: 0x1
+[    0.853462]   Magic number: 15:761:637
+[    0.853564] rtc_cmos 00:01: setting system clock to 2015-01-23 14:37:55 UTC (1422023875)
+[    0.853642] BIOS EDD facility v0.16 2004-Jun-25, 0 devices found
+[    0.853643] EDD information not available.
+[    0.853725] PM: Hibernation image not present or could not be loaded.
+[    0.857590] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input4
+[    0.857677] Freeing unused kernel memory: 1360K (ffffffff81d2e000 - ffffffff81e82000)
+[    0.857680] Write protecting the kernel read-only data: 12288k
+[    0.858802] Freeing unused kernel memory: 448K (ffff880001790000 - ffff880001800000)
+[    0.859875] Freeing unused kernel memory: 488K (ffff880001b86000 - ffff880001c00000)
+[    0.869969] systemd-udevd[114]: starting version 208
+[    0.870410] random: systemd-udevd urandom read with 1 bits of entropy available
+[    0.894594] r8169 Gigabit Ethernet driver 2.3LK-NAPI loaded
+[    0.894861] r8169 0000:05:00.0: irq 41 for MSI/MSI-X
+[    0.895081] r8169 0000:05:00.0 eth0: RTL8105e at 0xffffc9000000e000, 24:b6:fd:57:13:2c, XID 00a00000 IRQ 41
+[    0.895761] ahci 0000:00:1f.2: version 3.0
+[    0.896070] ahci 0000:00:1f.2: irq 42 for MSI/MSI-X
+[    0.896093] ahci 0000:00:1f.2: SSS flag set, parallel bus scan disabled
+[    0.909489] ahci 0000:00:1f.2: AHCI 0001.0300 32 slots 6 ports 6 Gbps 0x11 impl SATA mode
+[    0.909496] ahci 0000:00:1f.2: flags: 64bit ncq sntf stag pm led clo pio slum part ems apst 
+[    0.918224] scsi0 : ahci
+[    0.918376] scsi1 : ahci
+[    0.918481] scsi2 : ahci
+[    0.918582] scsi3 : ahci
+[    0.918681] scsi4 : ahci
+[    0.918777] scsi5 : ahci
+[    0.918825] ata1: SATA max UDMA/133 abar m2048@0xf7e06000 port 0xf7e06100 irq 42
+[    0.918827] ata2: DUMMY
+[    0.918828] ata3: DUMMY
+[    0.918829] ata4: DUMMY
+[    0.918831] ata5: SATA max UDMA/133 abar m2048@0xf7e06000 port 0xf7e06300 irq 42
+[    0.918832] ata6: DUMMY
+[    1.133825] usb 1-1: new high-speed USB device number 2 using ehci-pci
+[    1.237848] ata1: SATA link up 3.0 Gbps (SStatus 123 SControl 300)
+[    1.240222] ata1.00: ACPI cmd 00/00:00:00:00:00:a0 (NOP) rejected by device (Stat=0x51 Err=0x04)
+[    1.240596] ata1.00: ATA-8: WDC WD5000BPVT-75HXZT3, 03.01A03, max UDMA/133
+[    1.240605] ata1.00: 976773168 sectors, multi 16: LBA48 NCQ (depth 31/32), AA
+[    1.243127] ata1.00: ACPI cmd 00/00:00:00:00:00:a0 (NOP) rejected by device (Stat=0x51 Err=0x04)
+[    1.243439] ata1.00: configured for UDMA/133
+[    1.243634] scsi 0:0:0:0: Direct-Access     ATA      WDC WD5000BPVT-7 1A03 PQ: 0 ANSI: 5
+[    1.243921] sd 0:0:0:0: [sda] 976773168 512-byte logical blocks: (500 GB/465 GiB)
+[    1.243925] sd 0:0:0:0: [sda] 4096-byte physical blocks
+[    1.243959] sd 0:0:0:0: Attached scsi generic sg0 type 0
+[    1.243971] sd 0:0:0:0: [sda] Write Protect is off
+[    1.243975] sd 0:0:0:0: [sda] Mode Sense: 00 3a 00 00
+[    1.243997] sd 0:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+[    1.266432] usb 1-1: New USB device found, idVendor=8087, idProduct=0024
+[    1.266443] usb 1-1: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+[    1.266852] hub 1-1:1.0: USB hub found
+[    1.267081] hub 1-1:1.0: 6 ports detected
+[    1.347388]  sda: sda1 sda2 sda3 sda4 < sda5 sda6 sda7 sda8 >
+[    1.348578] sd 0:0:0:0: [sda] Attached SCSI disk
+[    1.378039] usb 2-1: new high-speed USB device number 2 using ehci-pci
+[    1.510549] usb 2-1: New USB device found, idVendor=8087, idProduct=0024
+[    1.510561] usb 2-1: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+[    1.510935] hub 2-1:1.0: USB hub found
+[    1.511162] hub 2-1:1.0: 8 ports detected
+[    1.562136] ata5: SATA link up 1.5 Gbps (SStatus 113 SControl 300)
+[    1.565990] ata5.00: ATAPI: PLDS DVD+/-RW DS-8A8SH, KD11, max UDMA/100
+[    1.567155] ata5.00: configured for UDMA/100
+[    1.582252] usb 1-1.4: new full-speed USB device number 3 using ehci-pci
+[    1.582300] scsi 4:0:0:0: CD-ROM            PLDS     DVD+-RW DS-8A8SH KD11 PQ: 0 ANSI: 5
+[    1.612271] sr0: scsi3-mmc drive: 24x/24x writer dvd-ram cd/rw xa/form2 cdda tray
+[    1.612275] cdrom: Uniform CD-ROM driver Revision: 3.20
+[    1.612482] sr 4:0:0:0: Attached scsi CD-ROM sr0
+[    1.612577] sr 4:0:0:0: Attached scsi generic sg1 type 5
+[    1.679131] usb 1-1.4: New USB device found, idVendor=0cf3, idProduct=3005
+[    1.679142] usb 1-1.4: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+[    1.750377] usb 1-1.5: new high-speed USB device number 4 using ehci-pci
+[    1.774204] tsc: Refined TSC clocksource calibration: 2394.563 MHz
+[    1.906828] usb 1-1.5: New USB device found, idVendor=0c45, idProduct=643d
+[    1.906840] usb 1-1.5: New USB device strings: Mfr=2, Product=1, SerialNumber=0
+[    1.906846] usb 1-1.5: Product: Laptop_Integrated_Webcam_0.3M
+[    1.906852] usb 1-1.5: Manufacturer: CN0JYKKC7248724C06NCA01
+[    2.073304] input: DualPoint Stick as /devices/platform/i8042/serio1/input/input7
+[    2.086383] input: AlpsPS/2 ALPS DualPoint TouchPad as /devices/platform/i8042/serio1/input/input6
+[    2.775221] Switched to clocksource tsc
+[    3.206171] random: nonblocking pool is initialized
+[    3.778450] EXT4-fs (sda6): mounted filesystem with ordered data mode. Opts: (null)
+[    5.277474] init: plymouth-upstart-bridge main process (192) terminated with status 1
+[    5.277486] init: plymouth-upstart-bridge main process ended, respawning
+[    5.279172] init: plymouth-upstart-bridge main process (207) terminated with status 1
+[    5.279186] init: plymouth-upstart-bridge main process ended, respawning
+[    5.280834] init: plymouth-upstart-bridge main process (209) terminated with status 1
+[    5.280847] init: plymouth-upstart-bridge main process ended, respawning
+[    5.282409] init: plymouth-upstart-bridge main process (210) terminated with status 1
+[    5.282423] init: plymouth-upstart-bridge main process ended, respawning
+[    5.284084] init: plymouth-upstart-bridge main process (212) terminated with status 1
+[    5.284097] init: plymouth-upstart-bridge main process ended, respawning
+[    5.285690] init: plymouth-upstart-bridge main process (213) terminated with status 1
+[    5.285705] init: plymouth-upstart-bridge main process ended, respawning
+[    5.287461] init: plymouth-upstart-bridge main process (215) terminated with status 1
+[    5.287471] init: plymouth-upstart-bridge main process ended, respawning
+[    5.289145] init: plymouth-upstart-bridge main process (217) terminated with status 1
+[    5.289155] init: plymouth-upstart-bridge main process ended, respawning
+[    5.290644] init: plymouth-upstart-bridge main process (219) terminated with status 1
+[    5.290657] init: plymouth-upstart-bridge main process ended, respawning
+[    5.292212] init: plymouth-upstart-bridge main process (220) terminated with status 1
+[    5.292226] init: plymouth-upstart-bridge main process ended, respawning
+[    5.293892] init: plymouth-upstart-bridge main process (222) terminated with status 1
+[    5.293905] init: plymouth-upstart-bridge respawning too fast, stopped
+[   13.118312] Adding 2951164k swap on /dev/sda8.  Priority:-1 extents:1 across:2951164k FS
+[   13.425417] systemd-udevd[333]: starting version 208
+[   13.485611] lp: driver loaded but no devices found
+[   13.488750] ppdev: user-space parallel port driver
+[   13.516603] shpchp: Standard Hot Plug PCI Controller Driver version: 0.4
+[   13.524523] ACPI Warning: SystemIO range 0x0000000000000428-0x000000000000042f conflicts with OpRegion 0x0000000000000400-0x000000000000047f (\PMIO) (20140424/utaddress-258)
+[   13.524532] ACPI: If an ACPI driver is available for this device, you should use it instead of the native driver
+[   13.524537] ACPI Warning: SystemIO range 0x0000000000000540-0x000000000000054f conflicts with OpRegion 0x0000000000000500-0x0000000000000563 (\GPIO) (20140424/utaddress-258)
+[   13.524542] ACPI: If an ACPI driver is available for this device, you should use it instead of the native driver
+[   13.524544] ACPI Warning: SystemIO range 0x0000000000000530-0x000000000000053f conflicts with OpRegion 0x0000000000000500-0x0000000000000563 (\GPIO) (20140424/utaddress-258)
+[   13.524548] ACPI: If an ACPI driver is available for this device, you should use it instead of the native driver
+[   13.524549] ACPI Warning: SystemIO range 0x0000000000000500-0x000000000000052f conflicts with OpRegion 0x0000000000000500-0x0000000000000563 (\GPIO) (20140424/utaddress-258)
+[   13.524553] ACPI: If an ACPI driver is available for this device, you should use it instead of the native driver
+[   13.524555] lpc_ich: Resource conflict(s) found affecting gpio_ich
+[   13.529191] mei_me 0000:00:16.0: irq 43 for MSI/MSI-X
+[   13.529809] [drm] Initialized drm 1.1.0 20060810
+[   13.562852] [drm] Memory usable by graphics device = 2048M
+[   13.562856] [drm] Replacing VGA console driver
+[   13.562861] checking generic (e0000000 300000) vs hw (e0000000 10000000)
+[   13.562863] fb: switching to inteldrmfb from VESA VGA
+[   13.562887] Console: switching to colour dummy device 80x25
+[   13.578865] wmi: Mapper loaded
+[   13.584295] i915 0000:00:02.0: irq 44 for MSI/MSI-X
+[   13.584305] [drm] Supports vblank timestamp caching Rev 2 (21.10.2013).
+[   13.584306] [drm] Driver supports precise vblank timestamp query.
+[   13.584374] vgaarb: device changed decodes: PCI:0000:00:02.0,olddecodes=io+mem,decodes=io+mem:owns=io+mem
+[   13.608375] cfg80211: Calling CRDA to update world regulatory domain
+[   13.616497] [drm] Wrong MCH_SSKPD value: 0x16040307
+[   13.616500] [drm] This can cause pipe underruns and display issues.
+[   13.616502] [drm] Please upgrade your BIOS to fix this.
+[   13.636275] Bluetooth: Core ver 2.19
+[   13.636312] NET: Registered protocol family 31
+[   13.636314] Bluetooth: HCI device and connection manager initialized
+[   13.636321] Bluetooth: HCI socket layer initialized
+[   13.636324] Bluetooth: L2CAP socket layer initialized
+[   13.636336] Bluetooth: SCO socket layer initialized
+[   13.651716] usbcore: registered new interface driver btusb
+[   13.670064] fbcon: inteldrmfb (fb0) is primary device
+[   13.670093] Console: switching to colour frame buffer device 170x48
+[   13.670120] i915 0000:00:02.0: fb0: inteldrmfb frame buffer device
+[   13.670123] i915 0000:00:02.0: registered panic notifier
+[   13.712537] ath: phy0: ASPM enabled: 0x42
+[   13.712542] ath: EEPROM regdomain: 0x60
+[   13.712544] ath: EEPROM indicates we should expect a direct regpair map
+[   13.712547] ath: Country alpha2 being used: 00
+[   13.712548] ath: Regpair used: 0x60
+[   13.714563] intel_rapl: Found RAPL domain package
+[   13.714567] intel_rapl: Found RAPL domain core
+[   13.714569] intel_rapl: Found RAPL domain uncore
+[   13.719702] ieee80211 phy0: Selected rate control algorithm 'minstrel_ht'
+[   13.720057] ieee80211 phy0: Atheros AR9285 Rev:2 mem=0xffffc900051e0000, irq=19
+[   13.727397] dcdbas dcdbas: Dell Systems Management Base Driver (version 5.6.0-3.2)
+[   13.759504] ACPI: Video Device [GFX0] (multi-head: yes  rom: no  post: no)
+[   13.759833] acpi device:32: registered as cooling_device5
+[   13.759945] input: Video Bus as /devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A08:00/LNXVIDEO:00/input/input8
+[   13.760057] [drm] Initialized i915 1.6.0 20080730 for 0000:00:02.0 on minor 0
+[   13.760528] snd_hda_intel 0000:00:1b.0: irq 45 for MSI/MSI-X
+[   13.761800] input: Dell WMI hotkeys as /devices/virtual/input/input9
+[   13.792703] sound hdaudioC0D0: autoconfig: line_outs=1 (0xd/0x0/0x0/0x0/0x0) type:speaker
+[   13.792706] sound hdaudioC0D0:    speaker_outs=0 (0x0/0x0/0x0/0x0/0x0)
+[   13.792709] sound hdaudioC0D0:    hp_outs=1 (0xb/0x0/0x0/0x0/0x0)
+[   13.792710] sound hdaudioC0D0:    mono: mono_out=0x0
+[   13.792712] sound hdaudioC0D0:    inputs:
+[   13.792714] sound hdaudioC0D0:      Internal Mic=0xc
+[   13.792716] sound hdaudioC0D0:      Mic=0xa
+[   13.823203] input: HDA Intel PCH Mic as /devices/pci0000:00/0000:00:1b.0/sound/card0/input10
+[   13.823739] input: HDA Intel PCH Headphone as /devices/pci0000:00/0000:00:1b.0/sound/card0/input11
+[   13.823859] input: HDA Intel PCH HDMI/DP,pcm=3 as /devices/pci0000:00/0000:00:1b.0/sound/card0/input12
+[   13.948854] cfg80211: World regulatory domain updated:
+[   13.948857] cfg80211:  DFS Master region: unset
+[   13.948859] cfg80211:   (start_freq - end_freq @ bandwidth), (max_antenna_gain, max_eirp), (dfs_cac_time)
+[   13.948861] cfg80211:   (2402000 KHz - 2472000 KHz @ 40000 KHz), (300 mBi, 2000 mBm), (N/A)
+[   13.948863] cfg80211:   (2457000 KHz - 2482000 KHz @ 40000 KHz), (300 mBi, 2000 mBm), (N/A)
+[   13.948865] cfg80211:   (2474000 KHz - 2494000 KHz @ 20000 KHz), (300 mBi, 2000 mBm), (N/A)
+[   13.948867] cfg80211:   (5170000 KHz - 5250000 KHz @ 40000 KHz), (300 mBi, 2000 mBm), (N/A)
+[   13.948869] cfg80211:   (5735000 KHz - 5835000 KHz @ 40000 KHz), (300 mBi, 2000 mBm), (N/A)
+[   14.125216] audit: type=1400 audit(1422004088.757:2): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/sbin/dhclient" pid=429 comm="apparmor_parser"
+[   14.125224] audit: type=1400 audit(1422004088.757:3): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=429 comm="apparmor_parser"
+[   14.125228] audit: type=1400 audit(1422004088.757:4): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=429 comm="apparmor_parser"
+[   14.125975] audit: type=1400 audit(1422004088.757:5): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/sbin/dhclient" pid=397 comm="apparmor_parser"
+[   14.125986] audit: type=1400 audit(1422004088.757:6): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=397 comm="apparmor_parser"
+[   14.125992] audit: type=1400 audit(1422004088.757:7): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=397 comm="apparmor_parser"
+[   14.126000] audit: type=1400 audit(1422004088.757:8): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/sbin/dhclient" pid=449 comm="apparmor_parser"
+[   14.126008] audit: type=1400 audit(1422004088.757:9): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/NetworkManager/nm-dhcp-client.action" pid=449 comm="apparmor_parser"
+[   14.126014] audit: type=1400 audit(1422004088.757:10): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/connman/scripts/dhclient-script" pid=449 comm="apparmor_parser"
+[   14.154270] media: Linux media interface: v0.10
+[   14.158309] Linux video capture interface: v2.00
+[   14.166585] uvcvideo: Found UVC 1.00 device Laptop_Integrated_Webcam_0.3M (0c45:643d)
+[   14.184347] input: Laptop_Integrated_Webcam_0.3M as /devices/pci0000:00/0000:00:1a.0/usb1/1-1/1-1.5/1-1.5:1.0/input/input13
+[   14.184441] usbcore: registered new interface driver uvcvideo
+[   14.184444] USB Video Class driver (1.1.1)
+[   14.489149] EXT4-fs (sda6): re-mounted. Opts: errors=remount-ro
+[   14.813689] [drm] Enabling RC6 states: RC6 on, RC6p off, RC6pp off
+[   15.382538] init: Error while reading from descriptor: Broken pipe
+[   15.384629] init: failsafe main process (625) killed by TERM signal
+[   16.486529] audit: type=1400 audit(1422004091.113:11): apparmor="STATUS" operation="profile_load" profile="unconfined" name="/usr/lib/lightdm/lightdm-guest-session" pid=741 comm="apparmor_parser"
+[   16.812069] Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+[   16.812073] Bluetooth: BNEP filters: protocol multicast
+[   16.812081] Bluetooth: BNEP socket layer initialized
+[   16.831181] Bluetooth: RFCOMM TTY layer initialized
+[   16.831193] Bluetooth: RFCOMM socket layer initialized
+[   16.831198] Bluetooth: RFCOMM ver 1.11
+[   17.363226] init: cups main process (760) killed by HUP signal
+[   17.363240] init: cups main process ended, respawning
+[   19.731969] systemd-logind[956]: New seat seat0.
+[   19.806578] systemd-logind[956]: Watching system buttons on /dev/input/event3 (Power Button)
+[   19.806679] systemd-logind[956]: Watching system buttons on /dev/input/event7 (Video Bus)
+[   19.806778] systemd-logind[956]: Watching system buttons on /dev/input/event1 (Power Button)
+[   19.806871] systemd-logind[956]: Watching system buttons on /dev/input/event0 (Lid Switch)
+[   19.806966] systemd-logind[956]: Watching system buttons on /dev/input/event2 (Sleep Button)
+[   20.023716] audit_printk_skb: 69 callbacks suppressed
+[   20.023721] audit: type=1400 audit(1422004094.649:35): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/sbin/cups-browsed" pid=1091 comm="apparmor_parser"
+[   20.709306] r8169 0000:05:00.0 eth0: link down
+[   20.709341] IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+[   20.725981] IPv6: ADDRCONF(NETDEV_UP): wlan0: link is not ready
+[   22.277804] r8169 0000:05:00.0 eth0: link up
+[   22.277824] IPv6: ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+[   24.310574] systemd-logind[956]: Failed to start unit user@112.service: Unknown unit: user@112.service
+[   24.310581] systemd-logind[956]: Failed to start user service: Unknown unit: user@112.service
+[   24.314548] systemd-logind[956]: New session c1 of user lightdm.
+[   24.314569] systemd-logind[956]: Linked /tmp/.X11-unix/X0 to /run/user/112/X11-display.
+[   32.245065] systemd-logind[956]: Failed to start unit user@1000.service: Unknown unit: user@1000.service
+[   32.245075] systemd-logind[956]: Failed to start user service: Unknown unit: user@1000.service
+[   32.249054] systemd-logind[956]: New session c2 of user priya.
+[   32.249074] systemd-logind[956]: Linked /tmp/.X11-unix/X0 to /run/user/1000/X11-display.
+[   47.287289] audit: type=1400 audit(1422004120.587:36): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/cups/backend/cups-pdf" pid=2456 comm="apparmor_parser"
+[   47.287298] audit: type=1400 audit(1422004120.587:37): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/sbin/cupsd" pid=2456 comm="apparmor_parser"
+[   47.301310] audit: type=1400 audit(1422004120.603:38): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="third_party" pid=2456 comm="apparmor_parser"
+[ 2159.880306] systemd-hostnamed[4911]: Warning: nss-myhostname is not installed. Changing the local hostname might make it unresolveable. Please install nss-myhostname!
+[ 2571.583237] usb 2-1.2: new high-speed USB device number 3 using ehci-pci
+[ 2571.676179] usb 2-1.2: New USB device found, idVendor=1782, idProduct=5d00
+[ 2571.676198] usb 2-1.2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 2571.676204] usb 2-1.2: Product: Micromax A65
+[ 2571.676209] usb 2-1.2: Manufacturer: Spreadtrum
+[ 2571.676213] usb 2-1.2: SerialNumber: 19761202
+[ 2571.777239] usb-storage 2-1.2:1.0: USB Mass Storage device detected
+[ 2571.777348] scsi6 : usb-storage 2-1.2:1.0
+[ 2571.777480] usbcore: registered new interface driver usb-storage
+[ 2571.790904] usbcore: registered new interface driver uas
+[ 2572.777459] scsi 6:0:0:0: Direct-Access     Micromax A65              0200 PQ: 0 ANSI: 2
+[ 2572.779253] sd 6:0:0:0: Attached scsi generic sg2 type 0
+[ 2572.867290] sd 6:0:0:0: [sdb] Attached SCSI removable disk
+[ 3715.688498] audit: type=1400 audit(1422007785.863:39): apparmor="DENIED" operation="capable" profile="/usr/lib/telepathy/mission-control-5" pid=6363 comm="mission-control" capability=1  capname="dac_override"
+[ 3715.688507] audit: type=1400 audit(1422007785.863:40): apparmor="DENIED" operation="capable" profile="/usr/lib/telepathy/mission-control-5" pid=6363 comm="mission-control" capability=2  capname="dac_read_search"
+[ 3715.697953] audit: type=1400 audit(1422007785.875:41): apparmor="DENIED" operation="capable" profile="/usr/lib/telepathy/mission-control-5" pid=6365 comm=64636F6E6620776F726B6572 capability=1  capname="dac_override"
+[ 3715.697959] audit: type=1400 audit(1422007785.875:42): apparmor="DENIED" operation="capable" profile="/usr/lib/telepathy/mission-control-5" pid=6365 comm=64636F6E6620776F726B6572 capability=2  capname="dac_read_search"
+[ 3715.732431] audit: type=1400 audit(1422007785.907:43): apparmor="DENIED" operation="capable" profile="/usr/lib/telepathy/mission-control-5" pid=6363 comm="mission-control" capability=1  capname="dac_override"
+[ 3715.732437] audit: type=1400 audit(1422007785.907:44): apparmor="DENIED" operation="capable" profile="/usr/lib/telepathy/mission-control-5" pid=6363 comm="mission-control" capability=2  capname="dac_read_search"
+[ 3715.734235] audit: type=1400 audit(1422007785.911:45): apparmor="DENIED" operation="capable" profile="/usr/lib/telepathy/mission-control-5" pid=6363 comm="mission-control" capability=1  capname="dac_override"
+[ 3715.734241] audit: type=1400 audit(1422007785.911:46): apparmor="DENIED" operation="capable" profile="/usr/lib/telepathy/mission-control-5" pid=6363 comm="mission-control" capability=2  capname="dac_read_search"
+[ 5581.130916] usb 1-1.2: new high-speed USB device number 5 using ehci-pci
+[ 5581.224846] usb 1-1.2: New USB device found, idVendor=0781, idProduct=5567
+[ 5581.224857] usb 1-1.2: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[ 5581.224862] usb 1-1.2: Product: Cruzer Blade
+[ 5581.224867] usb 1-1.2: Manufacturer: SanDisk
+[ 5581.224872] usb 1-1.2: SerialNumber: 4C532000030703117091
+[ 5581.225546] usb-storage 1-1.2:1.0: USB Mass Storage device detected
+[ 5581.227166] scsi7 : usb-storage 1-1.2:1.0
+[ 5582.229431] scsi 7:0:0:0: Direct-Access     SanDisk  Cruzer Blade     1.26 PQ: 0 ANSI: 6
+[ 5582.230238] sd 7:0:0:0: Attached scsi generic sg3 type 0
+[ 5582.231931] sd 7:0:0:0: [sdc] 31266816 512-byte logical blocks: (16.0 GB/14.9 GiB)
+[ 5582.236565] sd 7:0:0:0: [sdc] Write Protect is off
+[ 5582.236582] sd 7:0:0:0: [sdc] Mode Sense: 43 00 00 00
+[ 5582.240927] sd 7:0:0:0: [sdc] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA
+[ 5582.283691]  sdc: sdc1
+[ 5582.290997] sd 7:0:0:0: [sdc] Attached SCSI disk
+[ 5584.139303] systemd-hostnamed[7169]: Warning: nss-myhostname is not installed. Changing the local hostname might make it unresolveable. Please install nss-myhostname!
+[ 7027.713560] systemd-hostnamed[7893]: Warning: nss-myhostname is not installed. Changing the local hostname might make it unresolveable. Please install nss-myhostname!
+             total       used       free     shared    buffers     cached
+Mem:          5876       5091        784        234       1981       2204
+-/+ buffers/cache:        905       4971
+Swap:         2881          0       2881
